@@ -9,3 +9,7 @@ on your raspberry pi, open a terminal window and type
     wget https://github.com/pi4teachers/experimenter-kit/archive/master.zip
     unzip master.zip
     cd experimenter-kit
+
+# Explore the code
+
+have a look at the README.md files associated with the demos by clicking the button and led folders above.
