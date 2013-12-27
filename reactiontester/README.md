@@ -8,6 +8,8 @@ One of the simplest programs and circuits we can make with an LED and a button i
 
 ## Build the circuit: 1 led and 1 button
 
+![circuit](reactiontester/1\ led,\ 1\ switch.png)
+
 ## Write a program that can listen to the led and light the button
 
 ## We need to wait a random length of time and then measure a time interval - introduce libraries: time and random
