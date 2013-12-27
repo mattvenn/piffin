@@ -16,6 +16,8 @@ One of the simplest programs and circuits we can make with an LED and a button i
 
 # Enhancements
 
+## Take 3 readings and get an average
+
 ## Depending on how your time, display different messages
 
 ## Store the best scores and show them at startup
