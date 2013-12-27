@@ -1,12 +1,12 @@
-# pi 4 teachers experimenter's kit
+# piffin experimenter's kit
 
-our Raspberry Pi experimentor's kit is available from http://pi4teachers.co.uk
+our Raspberry Pi experimentor's kit is available from http://piffin.co.uk
 
 # Download the code
 
 on your raspberry pi, open a terminal window and type
 
-    wget https://github.com/pi4teachers/experimenter-kit/archive/master.zip
+    wget https://github.com/mattvenn/piffin/archive/master.zip
     unzip master.zip
     cd experimenter-kit
 
