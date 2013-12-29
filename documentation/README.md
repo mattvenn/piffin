@@ -1,3 +1,9 @@
+# auto docs
+
 autogenerate docs with this:
 
-    pandoc -s -S --toc -c pandoc.css -A footer.html README.md quizbuttons/README.md reactiontester/README.md -o example3.pdf
+    ./documentation/generate.sh
+
+# prettify
+
+came from prettify-small-4-Mar-2013.tar
