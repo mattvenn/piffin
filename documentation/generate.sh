@@ -9,16 +9,18 @@ find . -name '*md' | while read path; do
     #change to the dir
     cd $dir
     echo "processing $path"
-    #and use pandoc to generate a pdf
-#    pandoc -s -S --toc $file -o $file.html
     
-    #substitute code, hardcoded for now 
+    #substitute code, hardcoded for now, also the classes have to be coded
+    #into the markdown.
     sed -e '/^reaction.py/ {                               
     r reaction.py
     d }' < README.md > README.md.tmp
 
+    #html
     pandoc -s -S --indented-code-classes='prettyprint linenums' -c $doc/pandoc.css -H $doc/header.html -A $doc/footer.html $file.tmp -o $file.html
-#    wkhtmltopdf $file.html $file.pdf
+
+    #pdf
+    wkhtmltopdf $file.html $file.pdf
 
     #remove the tmp file
     rm README.md.tmp
