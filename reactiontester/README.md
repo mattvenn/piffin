@@ -85,6 +85,10 @@ This should provide everything the students need to know to write the reaction t
 
 See reaction.py for a worked example with comments.
 
+~~~
+reaction.py
+~~~
+
 # Enhancements
 
 Advance students can work on the following:
@@ -97,7 +101,7 @@ Advance students can work on the following:
 
 ## Depending on how your time, display different messages
 
-* Use a conditional statement to print various messages:
+Use a conditional statement to print various messages:
 
     if time > 1:
         print("pretty slow, could try harder")
