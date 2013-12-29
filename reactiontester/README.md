@@ -85,7 +85,7 @@ This should provide everything the students need to know to write the reaction t
 
 See reaction.py for a worked example with comments.
 
-~~~
+~~~ {.prettyprint .linenums}
 reaction.py
 ~~~
 
