@@ -2,7 +2,7 @@
 
 autogenerate docs with this:
 
-    ./documentation/generate.sh
+    ./documentation/generate.py
 
 # prettify
 
