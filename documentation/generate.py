@@ -3,8 +3,10 @@ import sys
 
 root_dir = '.'
 doc_dir=os.path.join(root_dir,'documentation')
+header = os.path.join(doc_dir,'header.html')
+footer = os.path.join(doc_dir,'footer.html')
 
-#for all files..
+#for all files...
 for folder, subs, files in os.walk(root_dir):
     for filename in files:
         #that end with the markdown extension
@@ -34,17 +36,11 @@ for folder, subs, files in os.walk(root_dir):
             
             #process the markdown file with pandoc
             html_file = md_file + '.html'
-            header = os.path.join(doc_dir,'header.html')
-            footer = os.path.join(doc_dir,'footer.html')
-
             os.system("pandoc -s -S --indented-code-classes='prettyprint linenums' -H %s -A %s %s -o %s" % ( header, footer, tmp_file, html_file))
 
-
             #make pdfs
-            #wkhtmltopdf $file.html $file.pdf
-
+            pdf_file = md_file + '.pdf'
+            os.system("wkhtmltopdf %s %s" % (html_file, pdf_file))
             
-            os.remove(tmp_file)
             #remove the tmp file
-
-
+            os.remove(tmp_file)
