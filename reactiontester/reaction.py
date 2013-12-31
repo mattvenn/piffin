@@ -25,9 +25,9 @@ start_time = time.time()
 #wait for the button to be pressed...
 while True:
     if GPIO.input(button_pin) == False:
-        print "stopped!"
+        print("stopped!")
         #work out how long they took:
         reaction_time = time.time() - start_time
-        print "you got", reaction_time, "seconds"
+        print("you got", reaction_time, "seconds")
         #and finish the while loop
         break

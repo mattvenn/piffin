@@ -22,7 +22,7 @@ find . -name '*md' | while read path; do
     #pdf
     wkhtmltopdf $file.html $file.pdf
 
-    #remove the tmp file
+j   #remove the tmp file
     rm README.md.tmp
     cd $root
 done

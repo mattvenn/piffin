@@ -71,11 +71,11 @@ while True:
     #to call the other function
     if GPIO.input(button_pin) == False:
         if state == 'go':
-            print "stopping"
+            print("stopping")
             state = 'stopped'
             stop()
         else:
-            print "starting"
+            print("starting")
             state = 'go'
             go()
 
