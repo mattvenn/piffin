@@ -2,17 +2,28 @@
 
 One of the simplest programs and circuits we can make with an LED and a button is a reaction timer.
 
-This lesson works through:
+## What will be learnt
 
-* a basic circuit
-* controlling input and output with the raspberry pi
-* data using variables
+In this lesson, students will learn how to:
+
+* create a basic circuit
+* control input and output with the raspberry pi
+* store and retrieve data using variables
 
 Advanced students can progress to:
 
 * conditional statements
 * loops
-* file IO
+* file input and output
+
+## Facilities
+
+* 1 raspberry pi per 2 or 3 students
+* 1 piffin experimenter kit per 2 or 3 students
+
+## Time frame
+
+2 hours assuming that raspberry pis are setup and students already have logins.
 
 # Lesson Plan
 
@@ -27,6 +38,13 @@ Discuss what we need for a reaction timer. We need at least the following:
 * a way of making a random interval - this is important for checking a real reaction
 
 ## Build the circuit: 1 led and 1 button
+
+### Parts list
+
+* 1 led
+* 1 button
+* 3 male to female wires, 1 male to male wire
+* 1 resistor
 
 Follow the diagram to build the circuit. Things to look out for are:
 
@@ -109,3 +127,14 @@ Use a conditional statement to print various messages:
 ## Store the best scores and show them at startup
 
 * Use file IO to store the previous results
+TODO!
+
+# Additional Resources
+
+TODO!
+* Reaction timers
+* LEDs and resistors
+* Latest version of this document
+* Conditional statements
+* File IO
+* Loops
