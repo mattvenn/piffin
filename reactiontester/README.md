@@ -105,7 +105,7 @@ See reaction.py for a worked example with comments.
 
 ***reaction.py
 
-# Enhancements
+# Extension activities
 
 Advance students can work on the following:
 
