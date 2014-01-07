@@ -129,6 +129,10 @@ Use a conditional statement to print various messages:
 * Use file IO to store the previous results
 TODO!
 
+# Homework
+
+TODO!
+
 # Additional Resources
 
 TODO!
