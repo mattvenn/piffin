@@ -4,11 +4,16 @@ Flashing an LED is a good first example. The code is commented well, so be sure 
 
 # Connections
 
+##circuit diagram here
+
 add an LED and a resistor in series to pin 8 of the header. There is an example circuit on the workshop resources. If the LED doesn't turn on, it may be because the pin isn't turned on already (see the section below), or because the circuit is broken.
 
-If the circuit is broken, check that the connections on the breadboard are as they are in the diagram. 
+## copy things to check.
 
-If you think the wires are correct, check the LED is the right way round - they only light one way round.
+## how to run the program
+
+* sudo
+* python
 
 # Turning all outputs on with the all_on.py script
 
