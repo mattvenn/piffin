@@ -30,10 +30,10 @@ GPIO.output(led_3_pin,False)
 while True:
     if GPIO.input(button_1_pin) == False:
         print("player 1!")
-        GPIO.output(led_1_pin,False)
+        GPIO.output(led_1_pin,True)
     if GPIO.input(button_2_pin) == False:
         print("player 2!")
-        GPIO.output(led_2_pin,False)
+        GPIO.output(led_2_pin,True)
     if GPIO.input(button_3_pin) == False:
         print("player 3!")
-        GPIO.output(led_3_pin,False)
+        GPIO.output(led_3_pin,True)
