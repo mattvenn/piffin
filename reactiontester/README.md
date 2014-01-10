@@ -50,6 +50,7 @@ Follow the diagram to build the circuit. Things to look out for are:
 
 * reversed LEDs (they only work one way) 
 * the input and output of the switch should be on the top left and bottom right
+* check the components are inserted properly, with their legs deeply inserted into the breadboard
 
 ![1 LED and 1 button](1\ led,\ 1\ switch.png)
 

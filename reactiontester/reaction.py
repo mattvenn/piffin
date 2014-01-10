@@ -19,8 +19,7 @@ GPIO.output(led_pin,False)
 #how long should we wait before turning on the led
 seconds = random.randint(3,10)
 
-
-#wait forour random time
+#wait for our random time
 time.sleep(seconds)
 
 #turn on the led and store the current time in a variable

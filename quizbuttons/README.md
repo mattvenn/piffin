@@ -14,12 +14,17 @@ A useful example of using buttons - we can make the equipment we need to play a 
 
 # Further enhancements
 
+how to reduce code?
+
+* make the led on, sleep, off code become a function, where the led pin is passed as an argument
+
 ## Play a sound
 
-## Network it
+find a .wav sound file. Each player could have their own sound.
+
+    import os
+    os.system('aplay sound.wav')
 
 ## Reduce CPU usage with interrupts
 
-## Show the correct team's picture on a mini monitor
-
-
+Have a look at button_int.py in the button directory. This shows how to use interrupts instead of polling.
