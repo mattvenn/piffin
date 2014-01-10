@@ -14,9 +14,14 @@ GPIO.setup(button_pin,GPIO.IN, pull_up_down=GPIO.PUD_UP)
 
 #set the led pin to be an output
 GPIO.setup(led_pin, GPIO.OUT)
+GPIO.output(led_pin,False)
 
 #how long should we wait before turning on the led
 seconds = random.randint(3,10)
+
+
+#wait forour random time
+time.sleep(seconds)
 
 #turn on the led and store the current time in a variable
 GPIO.output(led_pin, True)
