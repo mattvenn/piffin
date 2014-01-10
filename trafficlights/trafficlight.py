@@ -50,7 +50,7 @@ def stop():
 
 #function for starting: red -> amber flash -> green
 #starting off with the red light on
-def start():
+def go():
     #turn off red light
     GPIO.output(r_led_pin, False)
 
