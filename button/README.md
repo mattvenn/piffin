@@ -10,3 +10,7 @@ Luckily we can avoid adding a resistor, because we can use the GPIO library to t
 
 * Connect a button between pins 16 and 6
 * Connect a button between pins 18 and 6
+
+# Resources
+
+https://sourceforge.net/p/raspberry-gpio-python/wiki/Inputs/
