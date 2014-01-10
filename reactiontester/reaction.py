@@ -33,6 +33,6 @@ while True:
         print("stopped!")
         #work out how long they took:
         reaction_time = time.time() - start_time
-        print("you got", reaction_time, "seconds")
+        print("you got" + str(reaction_time) + "seconds")
         #and finish the while loop
         break
