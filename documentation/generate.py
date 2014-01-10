@@ -14,7 +14,7 @@ for folder, subs, files in os.walk(root_dir):
             md_file = os.path.join(folder,filename)
 
             #replace the code (using a tmp file)
-            print "processing", md_file
+            print("processing", md_file)
             tmp_file = md_file + '.tmp'
             with open(tmp_file, 'w') as dest:
                 with open(md_file, 'r') as src:
@@ -34,9 +34,13 @@ for folder, subs, files in os.walk(root_dir):
                         else:
                             dest.write(line)
             
+            #for html output
             #process the markdown file with pandoc
             html_file = md_file + '.html'
             os.system("pandoc -s -S --indented-code-classes='prettyprint linenums' -H %s -A %s %s -o %s" % ( header, footer, tmp_file, html_file))
+            #how to do pagination for pdfs? but still make them look good?
+            #os.system("pandoc --toc -N -s -S --indented-code-classes='prettyprint linenums' -H %s -A %s %s -o %s" % ( header, footer, tmp_file, html_file))
+
 
             #make pdfs
             pdf_file = md_file + '.pdf'
