@@ -52,7 +52,7 @@ Follow the diagram to build the circuit. Things to look out for are:
 * the input and output of the switch should be on the top left and bottom right
 * check the components are inserted properly, with their legs deeply inserted into the breadboard
 
-![1 LED and 1 button](1\ led,\ 1\ switch.png)
+![1 LED and 1 button](1led1switch.png)
 
 ## Write a program that can listen to the led and light the button
 
@@ -71,32 +71,38 @@ Introduce the idea of libraries. We don't want to have to write everything from 
 
 Introduce the time library. Use ipython and demonstrate the following
 
-    #import the library
-    import time
+~~~ {.python .numberLines}
+#import the library
+import time
 
-    #sleep for 5 seconds
-    time.sleep(5)
+#sleep for 5 seconds
+time.sleep(5)
 
-    #get the system time
-    time.time()
+#get the system time
+time.time()
+~~~
 
 Ask the students how they could measure how long something takes. We'd need to store the current time in a variable, then subtract that from the current time when the task is done:
 
-    #store time in a variable
-    time_start = time.time()
+~~~ {.python .numberLines}
+#store time in a variable
+time_start = time.time()
 
-    #do a task
-    time_taken = time.time() - time_start
-    print(time_taken)
+#do a task
+time_taken = time.time() - time_start
+print(time_taken)
+~~~
 
 ### Random library
 
 Introduce the random library:
 
-    #import library
-    import random
-    #pick a random number between 4 and 10
-    random.randint(4,10)
+~~~ {.python .numberLines}
+#import library
+import random
+#pick a random number between 4 and 10
+random.randint(4,10)
+~~~
 
 This should provide everything the students need to know to write the reaction timer program.
 
@@ -120,10 +126,12 @@ Advance students can work on the following:
 
 Use a conditional statement to print various messages:
 
-    if time > 1:
-        print("pretty slow, could try harder")
-    else:
-        print("nice reactions! Do you play a lot of sport?")
+~~~ {.python .numberLines}
+if time > 1:
+    print("pretty slow, could try harder")
+else:
+    print("nice reactions! Do you play a lot of sport?")
+~~~
 
 ## Store the best scores and show them at startup
 
@@ -137,6 +145,7 @@ TODO!
 # Additional Resources
 
 TODO!
+
 * Reaction timers
 * LEDs and resistors
 * Latest version of this document
