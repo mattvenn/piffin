@@ -1,6 +1,5 @@
 #import the library to control the GPIO pins
 import RPi.GPIO as GPIO
-GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BOARD)
 
 #import the time library
@@ -14,15 +13,13 @@ GPIO.setup(led_pin, GPIO.OUT)
 #in a loop:
 while True:
     #turn on the led
-    print True
+    print('hello')
     GPIO.output(led_pin, True)
-    #wait for 0.5 seconds
-    time.sleep(0.5)
+    #wait for 1 second
+    time.sleep(1)
 
     #turn off the led
-    print False
+    print('world!')
     GPIO.output(led_pin, False)
     #sleep again
-    time.sleep(0.5)
-
-
+    time.sleep(1)
