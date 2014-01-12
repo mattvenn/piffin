@@ -9,6 +9,7 @@ In this lesson, students will learn how to:
 * create a basic circuit
 * control input and output with the raspberry pi
 * store and retrieve data using variables
+* using libraries
 
 Advanced students can progress to:
 
