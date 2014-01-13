@@ -22,12 +22,13 @@ def my_callback(channel):
         print("button 2!")
 
 #add the interrupts
-GPIO.add_event_detect(button_pin_1, GPIO.FALLING, callback=my_callback, bouncetime=300) 
-GPIO.add_event_detect(button_pin_2, GPIO.FALLING, callback=my_callback, bouncetime=300) 
+GPIO.add_event_detect(button_pin_1, GPIO.FALLING,
+    callback=my_callback, bouncetime=300) 
+GPIO.add_event_detect(button_pin_2, GPIO.FALLING,
+    callback=my_callback, bouncetime=300) 
 
-#now wait forever, doing nothing. When a button is pressed, the interrupt callback function will do the work
+#now wait forever, doing nothing. 
+#When a button is pressed, the callback function will do the work
 while True:
     #wait for a bit to avoid high cpu usage
     time.sleep(1)
-
-
