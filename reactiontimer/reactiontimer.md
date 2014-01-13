@@ -7,7 +7,7 @@ One of the simplest programs and circuits we can make with an LED and a button i
 In this lesson, students will learn how to:
 
 * create a basic circuit
-* control input and output with the raspberry pi
+* control input and output with the Raspberry Pi
 * store and retrieve data using variables
 * using libraries
 
@@ -19,12 +19,12 @@ Advanced students can progress to:
 
 ## Facilities
 
-* 1 raspberry pi per 2 or 3 students
-* 1 piffin experimenter kit per 2 or 3 students
+* 1 Raspberry Pi per 2 or 3 students
+* 1 Piffin experimenter kit per 2 or 3 students
 
 ## Time frame
 
-2 hours assuming that raspberry pis are setup and students already have logins.
+2 hours assuming that Raspberry Pis are setup and students already have logins.
 
 # Lesson Plan
 

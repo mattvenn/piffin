@@ -37,6 +37,7 @@ $endif$
 
 %spec laser font
 \newfontfamily\laserfont{LZR-FACE}
+\newfontfamily{\laserfontlarge}[Scale=MatchUppercase]{LZR-FACE}
 
 \usepackage{fancyhdr}
 \pagestyle{fancy}
@@ -46,7 +47,7 @@ $endif$
 \rhead{\itshape{\nouppercase{\leftmark}}}
 \lfoot{\laserfont PIFFIN }
 %\lfoot{PIFFIN}
-\cfoot{}
+\cfoot{$date$}
 \rfoot{\thepage}
 
 $if(geometry)$
@@ -138,7 +139,8 @@ $endfor$
 $if(title)$
 \title{$title$}
 $endif$
-\author{$for(author)$$author$$sep$ \and $endfor$}
+\author{\laserfontlarge PIFFIN}
+%$for(author)$$author$$sep$ \and $endfor$}
 \date{$date$}
 
 \begin{document}

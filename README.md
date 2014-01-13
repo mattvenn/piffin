@@ -1,10 +1,10 @@
-# piffin experimenter's kit
+# Piffin experimenter's kit
 
 our Raspberry Pi experimentor's kit is available from http://piffin.co.uk
 
 # Download the code
 
-on your raspberry pi, open a terminal window and type
+on your Raspberry Pi, open a terminal window and type
 
     wget https://github.com/mattvenn/piffin/archive/master.zip
     unzip master.zip

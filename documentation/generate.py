@@ -1,4 +1,5 @@
 #!/usr/bin/python
+import subprocess
 import os
 import sys
 import argparse
@@ -7,21 +8,24 @@ root_dir = os.path.realpath(os.curdir)
 doc_dir=os.path.join(root_dir,'documentation')
 header = os.path.join(doc_dir,'header.html')
 footer = os.path.join(doc_dir,'footer.html')
-template = os.path.join(doc_dir,'template.tex')
+tex_template = os.path.join(doc_dir,'template.tex')
+html_template = os.path.join(doc_dir,'template.html')
 css = os.path.join(doc_dir,'pandoc.css')
 
 def process(md_file):
     #replace the code (using a tmp file)
     if args.verbose:
-        print("pre-processing", md_file)
+        print("pre-processing " + md_file)
     tmp_file = md_file + '.tmp'
-    title = ''
+
+    #get commit date
+    date = subprocess.check_output(['git', 'log', '-n 1', '--date=short', '--format=format:%ad', md_file])
+    if args.verbose:
+        print("doc commited on " + date)
+
     with open(tmp_file, 'w') as dest:
         with open(md_file, 'r') as src:
             for line in src:
-                #take first line as title
-                if not title:
-                    title = line.replace('# ','')
                 #if we find an include
                 if line.startswith('***'):
                     prog_file = line.replace('***','').strip()
@@ -35,6 +39,8 @@ def process(md_file):
                 #otherwise just copy the line
                 else:
                     dest.write(line)
+   
+    
     
     #for html output
     #process the markdown file with pandoc
@@ -42,7 +48,7 @@ def process(md_file):
     if args.verbose:
         print("making " + html_file)
     #these options make pandoc assume --standalone which is why the css for the syntax highlighting happens
-    os.system("~/.cabal/bin/pandoc -H %s -A %s %s -o %s" % ( header, footer, tmp_file, html_file))
+    os.system('~/.cabal/bin/pandoc --template=%s -c %s -H %s -A %s %s -o %s --variable date="%s"' % ( html_template, css, header, footer, tmp_file, html_file,date))
 
     #make pdfs
     if not args.nopdf:
@@ -50,7 +56,7 @@ def process(md_file):
         #fonts work with xelatex
         if args.verbose:
             print("making " + pdf_file)
-        os.system('~/.cabal/bin/pandoc  --template=%s --variable mainfont="DejaVu Sans" --variable sansfont="DejaVu Sans" --variable fontsize=12pt --latex-engine=xelatex %s --toc -o %s --variable title="%s" '% ( template,tmp_file,pdf_file,title))
+        os.system('~/.cabal/bin/pandoc  --template=%s --variable mainfont="DejaVu Sans" --variable sansfont="DejaVu Sans" --variable fontsize=12pt --latex-engine=xelatex %s --toc -o %s --variable date="%s"'% ( tex_template,tmp_file,pdf_file,date))
         
     #remove the tmp file
     os.remove(tmp_file)
