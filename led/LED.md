@@ -4,7 +4,9 @@
 
 # Flashing an LED
 
-Flashing an LED is a good first example of controlling something in the real world with a computer. Once we can control an LED we can move on to things like motors and buzzers. The Raspberry Pi has many GPIOs (General Purpose Input/Output) that we can use. They can either be set as an input or an output.
+The Raspberry Pi has many GPIOs (General Purpose Input/Output) that we can use. They can either be set as an input or an output.
+Flashing an LED is a good first example of using the Pi's output to controlling something in the real world.
+Once we can control an LED we can move on to things like motors and buzzers. 
 
 ## What will be learnt
 
@@ -17,6 +19,7 @@ Flashing an LED is a good first example of controlling something in the real wor
 
 * 1 Raspberry Pi per 2 or 3 students
 * 1 Piffin experimenter kit per 2 or 3 students
+* [python cheatsheet](../cheatsheet.html)
 
 ## Time frame
 
@@ -26,19 +29,23 @@ Flashing an LED is a good first example of controlling something in the real wor
 
 ## What do we need?
 
-Ask the students to think about what is needed to flash a light on and off. It's straight forward, but there are a few things that need to be considered.
+Ask the students to think about what is needed to flash a light on and off:
 
-* a loop, so the LED will continue flashing
-* pausing a short moment - without a pause the LED will flash so fast it will just look dim!
-* being able to control the pins on the Raspberry Pi with python
+1. being able to control the pins on the Raspberry Pi with python
+2. pausing a short moment - without a pause the LED will flash so fast it will just look dim!
+3. a loop, so the LED will continue flashing
+
+The most important thing to get clear is the first point. They'll work out the others when they're writing their code.
 
 ## Writing a python program with Idle
 
 ### Using Idle
 
-If you've not used Idle before, it's a programming environment that makes it easier for us to write python programs. When you start it up, you get the 'shell', which let's us easily experiment with single python commands. As soon as we press enter, the python command will run. Try typing in some basic maths operators:
+If you've not used Idle before, it's a programming environment that makes it easier for us to write python programs. 
+Start it by double clicking the Idle logo on the desktop.
+When Idle starts you'll see the 'shell', which let's us easily experiment with single python commands. As soon as we press enter, the python command will run. Try typing in some basic maths operators:
 
-~~~
+~~~ python
 10 + 10
 5 * 25
 ~~~
@@ -51,7 +58,7 @@ When we want to move onto writing longer programs, we can make a new window (fil
 
 Before we add the electronics, let's get a python program running that creates the loop and the time delay. Use the shell to show a loop:
 
-~~~
+~~~ python
 while True:
     print("hello world!")
 ~~~
@@ -64,7 +71,7 @@ If we want to slow it down, we can use the time library. Libraries allow us to u
 
 Show the students how to import the time library in the shell:
 
-~~~
+~~~ python
 import time
 time.sleep(5)
 ~~~
@@ -87,7 +94,7 @@ Ask the students to start writing a new program (using the file->new) menu. The 
 
 The code will look something like this:
 
-~~~
+~~~ python
 import time
 
 while True:
@@ -111,32 +118,40 @@ Now if we can control an LED as well as printing, we'll be done!
 
 Follow the diagram to build the circuit. Things to look out for are:
 
-* reversed LEDs (they only work one way) 
+* if an LED doesn't light, check the short leg is connected to ground (the black wire in the diagram).
 * check the components are inserted properly, with their legs deeply inserted into the breadboard
 
 ![2 LEDs](2leds.png)
 
-### Controlling the LEDs from python 
+### Controlling the LEDs with python 
 
 We need to use another library to control the LEDs. Get the students to add these lines to the top of their hello world code.
 
 The first line imports the new library, and the second sets the library so we can refer to the pins by their physical number: 
 
-    import RPi.GPIO as GPIO
-    GPIO.setmode(GPIO.BOARD)
+~~~ {.python}
+import RPi.GPIO as GPIO
+GPIO.setmode(GPIO.BOARD)
+~~~
 
 Now we store the pin number in a variable, so it's easy to change later, and then set that pin to be an output:
 
-    led_pin = 8
-    GPIO.setup(led_pin, GPIO.OUT)
+~~~ {.python}
+led_pin = 8
+GPIO.setup(led_pin, GPIO.OUT)
+~~~
 
 Finally, we can turn an LED on with this line:
 
-    GPIO.output(led_pin, True)
+~~~ {.python}
+GPIO.output(led_pin, True)
+~~~
 
 And off with this line:
 
-    GPIO.output(led_pin, False)
+~~~ {.python}
+GPIO.output(led_pin, False)
+~~~
 
 Challenge your students to finish the program themselves. If they get stuck, see the example below.
 
@@ -154,11 +169,26 @@ We'll do this by closing Idle, and restarting as the super user. Open a terminal
 
 A warning will pop up which can be ignored. Then re-open your program and run it with f5. Remember that we expect a warning about the GPIO already being in use.
 
-### Worked example
+### Worked example for 2 LEDs
 
 ***flash.py
 
 # Extension activities
+
+## Add the other LED
+
+We've only written the code to control one LED. Now add new code to control the second LED. Some tips:
+
+* We don't need to import any of the libraries again
+* Create a new variable for the second LED pin
+* Duplicate the line that set the GPIO up as an output, but using the new variable
+* Now use the same lines as before to control the first LED, but using the new variable
+
+~~~ python
+led_pin_2 = 10
+GPIO.setup(led_pin_2, GPIO.OUT)
+GPIO.output(led_pin_2, True)
+~~~
 
 ## Different patterns
 
@@ -169,7 +199,7 @@ A warning will pop up which can be ignored. Then re-open your program and run it
 
 Send secret messages with [Morse Code](http://en.wikipedia.org/wiki/Morse_code).
 
-* Students can define 2 functions, one for a dot and one for a dash
+* Students can define 2 [functions](../cheatsheet.html#functions), one for a dot and one for a dash
 * Sequence the dot and dash functions with a big conditional statement
 * Use the conditional in a loop to spell out words 
 
@@ -194,6 +224,17 @@ We can get rid of the annoying warnings whenever we run a program that uses the 
     GPIO.setwarnings(False)
 
 # Additional Resources
+
+## Piffin documents
+
+* Check our [python cheatsheet](../cheatsheet.html) for basic python commands
+* Download the [example code](flash.py)
+* The [online version of this document](LED.html)
+* The [printable version of this document](LED.pdf)
+
+## The RPi.GPIO Library
+
+For more details on using outputs, [check the reference](https://sourceforge.net/p/raspberry-gpio-python/wiki/Outputs/).
 
 ## Idle Tips
 
