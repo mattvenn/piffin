@@ -95,15 +95,17 @@ while True:
 
 Now if we can control an LED as well as printing, we'll be done!
 
-## Build the circuit: 2 LEDs
+## Build the circuit
 
-![2 LEDs](2leds.png)
-
-## Parts list
+### Parts list
 
 * 2 LEDs
 * 2 resistors
 * 3 male to female wires
+
+### Circuit diagram
+
+![2 LEDs](2leds.png)
 
 ### Controlling the LEDs from python 
 

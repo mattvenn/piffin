@@ -38,11 +38,11 @@ Discuss what we need for a reaction timer. We need at least the following:
 * a way of counting time
 * a way of making a random interval - this is important for checking a real reaction
 
-## Build the circuit: 1 led and 1 button
+## Build the circuit: 1 LED and 1 button
 
 ### Parts list
 
-* 1 led
+* 1 LED
 * 1 button
 * 3 male to female wires, 1 male to male wire
 * 1 resistor
@@ -55,7 +55,7 @@ Follow the diagram to build the circuit. Things to look out for are:
 
 ![1 LED and 1 button](1led1switch.png)
 
-## Write a program that can listen to the led and light the button
+## Write a program that can listen to the LED and light the button
 
 Challenge the students to use the code in the button and light directories to make a program that satisfies the following:
 

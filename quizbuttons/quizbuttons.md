@@ -6,17 +6,17 @@ A useful example of using buttons - we can make the equipment we need to play a 
 
 ## What do we need for quiz game buttons?
 
-## Build the circuitry: 3 buttons, 3 leds
+## Build the circuitry: 3 buttons, 3 LEDs
 
 ## Write a program to test the buttons and lights
 
-## Write a program that waits for a button press, then lights that led and disables the other leds
+## Write a program that waits for a button press, then lights that LED and disables the other LEDs
 
 # Further enhancements
 
 how to reduce code?
 
-* make the led on, sleep, off code become a function, where the led pin is passed as an argument
+* make the LED on, sleep, off code become a function, where the LED pin is passed as an argument
 
 ## Play a sound
 
