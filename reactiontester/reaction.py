@@ -9,7 +9,8 @@ GPIO.setmode(GPIO.BOARD)
 button_pin = 8
 led_pin = 10
 
-#set the button pin to be high to start, when we press it, the pin will read False.
+#set the button pin to be True to start,
+#when we press the button, the pin will change to False.
 GPIO.setup(button_pin,GPIO.IN, pull_up_down=GPIO.PUD_UP)
 
 #set the led pin to be an output
