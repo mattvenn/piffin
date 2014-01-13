@@ -16,7 +16,11 @@ def process(md_file):
     #replace the code (using a tmp file)
     if args.verbose:
         print("pre-processing " + md_file)
+
+    #filenames
     tmp_file = md_file + '.tmp'
+    html_file = md_file.replace('.md','.html')
+    pdf_file = md_file.replace('.md','.pdf')
 
     #get commit date
     date = subprocess.check_output(['git', 'log', '-n 1', '--date=short', '--format=format:%ad', md_file])
@@ -42,17 +46,17 @@ def process(md_file):
    
     
     
+
     #for html output
     #process the markdown file with pandoc
-    html_file = md_file + '.html'
     if args.verbose:
         print("making " + html_file)
     #these options make pandoc assume --standalone which is why the css for the syntax highlighting happens
-    os.system('~/.cabal/bin/pandoc --template=%s -c %s -H %s -A %s %s -o %s --variable date="%s"' % ( html_template, css, header, footer, tmp_file, html_file,date))
+    os.system('~/.cabal/bin/pandoc --template=%s -c %s -H %s -A %s %s -o %s --variable date="%s" --variable pdf="%s"' % ( html_template, css, header, footer, tmp_file, html_file,date,pdf_file))
 
     #make pdfs
     if not args.nopdf:
-        pdf_file = md_file + '.pdf'
+        pdf_file = md_file.replace('.md','.pdf')
         #fonts work with xelatex
         if args.verbose:
             print("making " + pdf_file)
