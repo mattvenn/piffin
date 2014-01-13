@@ -35,13 +35,17 @@ $if(mathfont)$
 $endif$
 \fi
 
+%spec laser font
+\newfontfamily\laserfont{LZR-FACE}
+
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \pagenumbering{arabic}
 \lhead{\itshape $title$}
 \chead{}
 \rhead{\itshape{\nouppercase{\leftmark}}}
-%\lfoot{v $version$}
+\lfoot{\laserfont PIFFIN }
+%\lfoot{PIFFIN}
 \cfoot{}
 \rfoot{\thepage}
 

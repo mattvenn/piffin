@@ -15,9 +15,13 @@ def process(md_file):
     if args.verbose:
         print("pre-processing", md_file)
     tmp_file = md_file + '.tmp'
+    title = ''
     with open(tmp_file, 'w') as dest:
         with open(md_file, 'r') as src:
             for line in src:
+                #take first line as title
+                if not title:
+                    title = line.replace('# ','')
                 #if we find an include
                 if line.startswith('***'):
                     prog_file = line.replace('***','').strip()
@@ -46,7 +50,7 @@ def process(md_file):
         #fonts work with xelatex
         if args.verbose:
             print("making " + pdf_file)
-        os.system('~/.cabal/bin/pandoc  --template=%s --variable mainfont="DejaVu Sans" --variable sansfont="DejaVu Sans" --variable fontsize=12pt --latex-engine=xelatex %s --toc -o %s'% ( template,tmp_file,pdf_file))
+        os.system('~/.cabal/bin/pandoc  --template=%s --variable mainfont="DejaVu Sans" --variable sansfont="DejaVu Sans" --variable fontsize=12pt --latex-engine=xelatex %s --toc -o %s --variable title="%s" '% ( template,tmp_file,pdf_file,title))
         
     #remove the tmp file
     os.remove(tmp_file)
@@ -62,7 +66,7 @@ if __name__ == '__main__':
         action='store_const', const=True, dest='verbose', default=False,
         help="verbose")
     parser.add_argument('--no-pdf',
-        action='store_const', const=True, dest='nopdf', default=True,
+        action='store_const', const=True, dest='nopdf', default=False,
         help="don't make pdf")
     parser.add_argument('--file', action='store', dest='file', help="single file to open")
 
