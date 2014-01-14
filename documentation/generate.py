@@ -10,7 +10,8 @@ header = os.path.join(doc_dir,'header.html')
 footer = os.path.join(doc_dir,'footer.html')
 tex_template = os.path.join(doc_dir,'template.tex')
 html_template = os.path.join(doc_dir,'template.html')
-css = os.path.join(doc_dir,'pandoc.css')
+css = 'http://doc.piffin.co.uk/experimenter-kit/documentation/pandoc.css'
+#css = os.path.join(doc_dir,'pandoc.css')
 
 def process(md_file):
     #replace the code (using a tmp file)
