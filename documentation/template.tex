@@ -45,7 +45,7 @@ $endif$
 \lhead{\itshape $title$}
 \chead{}
 \rhead{\itshape{\nouppercase{\leftmark}}}
-\lfoot{\laserfont PIffIN }
+\lfoot{ \href{http://piffin.co.uk}{\laserfont PIffIN }}
 %\lfoot{PIFFIN}
 \cfoot{$date$}
 \rfoot{\thepage}
@@ -78,7 +78,7 @@ $endif$
 $if(tables)$
 \usepackage{longtable,booktabs}
 $endif$
-$if(graphics)$
+
 \usepackage{graphicx}
 % We will generate all images so they have a width \maxwidth. This means
 % that they will get their normal width if they fit onto the page, but
@@ -89,7 +89,7 @@ $if(graphics)$
 \makeatother
 \let\Oldincludegraphics\includegraphics
 \renewcommand{\includegraphics}[1]{\Oldincludegraphics[width=\maxwidth]{#1}}
-$endif$
+
 \ifxetex
   \usepackage[setpagesize=false, % page size defined by xetex
               unicode=false, % unicode breaks when used with xetex
