@@ -10,7 +10,7 @@ header = os.path.join(doc_dir,'header.html')
 footer = os.path.join(doc_dir,'footer.html')
 tex_template = os.path.join(doc_dir,'template.tex')
 html_template = os.path.join(doc_dir,'template.html')
-css = 'http://doc.piffin.co.uk/experimenter-kit/documentation/pandoc.css'
+css = 'http://doc.piffin.co.uk/documentation/pandoc.css'
 #css = os.path.join(doc_dir,'pandoc.css')
 
 def process(md_file):
@@ -58,10 +58,13 @@ def process(md_file):
     #make pdfs
     if not args.nopdf:
         pdf_file = md_file.replace('.md','.pdf')
+        toc = '--toc'
+        if 'handout' in md_file:
+            toc = ''
         #fonts work with xelatex
         if args.verbose:
             print("making " + pdf_file)
-        os.system('~/.cabal/bin/pandoc  --template=%s --variable mainfont="DejaVu Sans" --variable sansfont="DejaVu Sans" --variable fontsize=12pt --latex-engine=xelatex %s --toc -o %s --variable date="%s"'% ( tex_template,tmp_file,pdf_file,date))
+        os.system('~/.cabal/bin/pandoc  --template=%s --variable mainfont="DejaVu Sans" --variable sansfont="DejaVu Sans" --variable fontsize=12pt --latex-engine=xelatex %s -o %s --variable date="%s" %s'% ( tex_template,tmp_file,pdf_file,date,toc))
         
     #remove the tmp file
     os.remove(tmp_file)
