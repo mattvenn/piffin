@@ -1,3 +1,7 @@
+% Reaction Timer
+% Piffin
+%
+
 # Reaction timer
 
 One of the simplest programs and circuits we can make with an LED and a button is a reaction timer.
@@ -47,13 +51,15 @@ Discuss what we need for a reaction timer. We need at least the following:
 * 3 male to female wires, 1 male to male wire
 * 1 resistor
 
-Follow the diagram to build the circuit. Things to look out for are:
+### Circuit Diagram
 
-* reversed LEDs (they only work one way) 
-* the input and output of the switch should be on the top left and bottom right
+Follow the diagram to build the circuit. Common problems are:
+
+* if an LED doesn't light, check the short leg is connected to ground (the black wire in the diagram).
+* the input and output of the button should be on the top left and bottom right
 * check the components are inserted properly, with their legs deeply inserted into the breadboard
 
-![1 LED and 1 button](1led1switch.png)
+\ ![1 LED and 1 button](1led1button.png)
 
 ## Write a program that can listen to the LED and light the button
 

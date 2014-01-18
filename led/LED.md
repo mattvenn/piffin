@@ -116,12 +116,12 @@ Now if we can control an LED as well as printing, we'll be done!
 
 ### Circuit diagram
 
-Follow the diagram to build the circuit. Things to look out for are:
+Follow the diagram to build the circuit. Common problems are:
 
 * if an LED doesn't light, check the short leg is connected to ground (the black wire in the diagram).
 * check the components are inserted properly, with their legs deeply inserted into the breadboard
 
-![2 LEDs](2leds.png)
+\ ![2 LEDs](2led.png)
 
 ### Controlling the LEDs with python 
 

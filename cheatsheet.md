@@ -1,5 +1,5 @@
 % Python Cheatsheet
-% Piffin
+% PIFFIN
 %
 
 # Important data types

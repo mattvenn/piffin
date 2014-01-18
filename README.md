@@ -1,6 +1,6 @@
 # Piffin experimenter's kit
 
-our Raspberry Pi experimentor's kit is available from http://piffin.co.uk
+our Raspberry Pi experimenter's kit is available from http://piffin.co.uk
 
 # Download the code
 

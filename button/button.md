@@ -61,7 +61,7 @@ Follow the diagram to build the circuit. Things to look out for are:
 
 * check the components are inserted properly, with their legs deeply inserted into the breadboard
 
-![2 buttons](2buttons.png)
+\ ![2 buttons](2button.png)
 
 ## Writing a python program with Idle
 

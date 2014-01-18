@@ -1,14 +1,19 @@
-# Piffin experimenter's kit
+# Piffin Raspberry Pi experimenter's kit
 
-our Raspberry Pi experimenter's kit is available from http://piffin.co.uk
+Documentation to support the Piffin [Raspberry Pi experimenter's kit](http://piffin.co.uk).
 
-# Explore
+# Projects
 
 * [Flash an LED](led/LED.html)
 * [detect a button](button/button.html)
 * [make a reaction timer](reactiontimer/reactiontimer.html)
 * [build traffic lights](trafficlights/trafficlights.html)
 * [make some quiz show buttons](quizbuttons/quizbuttons.html)
+
+# Other resources
+
+* [Python cheatsheet](cheatsheet.html)
+* [Glossary](glossary.html)
 
 # Download the code
 

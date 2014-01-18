@@ -1,3 +1,7 @@
+% Traffic Lights
+% Piffin
+%
+
 # Traffic lights
 
 Write a program that simulates the traffic lights changing from red to green and then green to red.
@@ -7,6 +11,8 @@ Write a program that simulates the traffic lights changing from red to green and
 ## What is needed? Variable to store state
 
 ## Build circuit: 3 LEDs and 1 button
+
+\ ![3 leds, 1 button](3led1button.png)
 
 ## Write a test program that flashes all the LEDs when the button is pressed
 

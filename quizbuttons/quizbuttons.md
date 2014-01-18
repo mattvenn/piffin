@@ -1,3 +1,7 @@
+% Quiz Panel Buttons
+% Piffin
+%
+
 # Quiz Buttons
 
 A useful example of using buttons - we can make the equipment we need to play a quiz game.
@@ -11,6 +15,8 @@ A useful example of using buttons - we can make the equipment we need to play a 
 ## Write a program to test the buttons and lights
 
 ## Write a program that waits for a button press, then lights that LED and disables the other LEDs
+
+\ ![3 LEDs and 3 buttons](3led3button.png)
 
 # Further enhancements
 
