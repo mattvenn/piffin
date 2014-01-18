@@ -36,7 +36,7 @@ $endif$
 \fi
 
 %spec laser font
-\newfontfamily\laserfont{LZR-FACE}
+\newfontfamily{\laserfont}[Scale=MatchUppercase]{LZR-FACE}
 \newfontfamily{\laserfontlarge}[Scale=2]{LZR-FACE}
 
 \usepackage{fancyhdr}
@@ -45,7 +45,7 @@ $endif$
 \lhead{\itshape $title$}
 \chead{}
 \rhead{\itshape{\nouppercase{\leftmark}}}
-\lfoot{\laserfont PIFFIN }
+\lfoot{\laserfont PIffIN }
 %\lfoot{PIFFIN}
 \cfoot{$date$}
 \rfoot{\thepage}
@@ -139,13 +139,28 @@ $endfor$
 $if(title)$
 \title{$title$}
 $endif$
-\author{\laserfontlarge PIFFIN}
+\author{\laserfontlarge PIffIN}
 %$for(author)$$author$$sep$ \and $endfor$}
 \date{$date$}
 
 \begin{document}
 $if(title)$
-\maketitle
+\begin{titlepage}
+\centering
+{
+{\laserfontlarge PIffIN}
+\vfill
+\begin{huge}
+$title$
+\end{huge}
+\vfill
+\Oldincludegraphics[width=3cm]{license_logo.png}
+\\
+This work is licensed under a 
+\href{http://creativecommons.org/licenses/by-sa/4.0/}{Creative Commons Attribution-ShareAlike 4.0 International License.}
+
+}
+\end{titlepage}
 $endif$
 
 $for(include-before)$
