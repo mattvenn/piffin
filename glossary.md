@@ -72,10 +72,10 @@ Stands for Graphical User Interface. This is the type of interface we're usually
 ## terminal
 ## variable
 
-A variable allows us to store data, update the data, and retreive the data.
-Think of a variable as a computer's short term memory. For a computer to repeat a task 10 times, it needs to remember how many times the task has alread y been completed. 
+A variable allows us to store data, update the data, and retrieve the data.
+Think of a variable as a computer's short term memory. For a computer to repeat a task 10 times, it needs to remember how many times the task has already been completed. 
 
-We store that number in a variable (line 1), update it every time we run the loop (line 4), and retreive it when we want to check if we need to keep running the loop (line 2).
+We store that number in a variable (line 1), update it every time we run the loop (line 4), and retrieve it when we want to check if we need to keep running the loop (line 2).
 
 ***var_demo.py
 
