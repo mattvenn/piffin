@@ -18,7 +18,7 @@ For a class of 30, you will need:
 * 15 NOOBS SD cards,
 * 15 USB keyboards, mice,
 * 15 HDMI monitors,
-* 15 [electronics kits](http://piffin.co.uk).
+* 15 [Piffin Lab Kits](http://piffin.co.uk).
 
 # Electronics
 
@@ -32,13 +32,15 @@ You can also build a kit yourself that includes the following components:
 * 100 male to male wires,
 * 15 breadboards.
 
-We advise buying at least 20% more than you need to account for losses.
+We advise buying at least 20% more than you need to account for losses. 
+
+Also, the Raspberry Pi holder makes things a lot easier, so either [buy one from us](http://www.piffin.co.uk/collections/shophome/products/raspberry-pi-prototyping-bundle-without-raspberry-pi), or [download the file](http://www.thingiverse.com/thing:231352) and get it laser cut. 
 
 # Lesson plans
 
 If your students already have a basic grounding in Python, you can optionally skip the Turtle Prize (though we encourage you to enter anyway!)
 
-* Learn Python with 3 lesson plans from [the Turtle Prize competition](http://turtleprize.com).
+* Introduction to Python with 3 lesson plans from [the Turtle Prize competition](http://turtleprize.com).
 * [The Raspberry Pi](lesson-1.html)
 * [Elementary electronics & Python Stopwatch](lesson-2.html)
 * [Flash an LED with Python & Conditionals](lesson-3.html)

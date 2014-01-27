@@ -28,6 +28,10 @@ A board that makes it easy to assemble temporary electronic circuits.
 
 A circuit is made up of different components electrically connected together. The [breadboard](#breadboard) example above shows a circuit made up of wires, a resistor and an LED.
 
+## CLI
+
+Stands for Command Line Interface. Where we type the commands on a keyboard. The only graphics are textual characters. Often seen as scary or old, the GUI is actually a very powerful way of interacting with a computer, and very common with the [Linux](#linux) operating system.
+
 ## conditional
 
 A program is made of a sequence of instructions. If we only have a sequence then every time the program runs, the same thing happens. We use a conditional if we want the program to do different things depending on its environment. For example; switching off a light when it gets bright.
@@ -55,10 +59,15 @@ Stands for General Purpose Input Output. The Raspberry Pi has 17 GPIOs available
 
 Ground means 0 [volts](#voltage).
 
+## GUI
+
+Stands for Graphical User Interface. This is the type of interface we're usually most used to - using a mouse to move a pointer, dragging and dropping. As opposed to a [CLI](#CLI)
 ## LED
 ## library
+## Linux
 ## loop
 ## operator
+## Pseudo code
 ## resistor
 ## terminal
 ## variable
@@ -68,12 +77,16 @@ Think of a variable as a computer's short term memory. For a computer to repeat 
 
 We store that number in a variable (line 1), update it every time we run the loop (line 4), and retreive it when we want to check if we need to keep running the loop (line 2).
 
-~~~ {.python .numberLines}
-x = 0
-while x < 10:
-    print("hello")
-    x = x + 1
-~~~
+***var_demo.py
+
+## operating system (OS)
+
+The software that runs on a computer that allows us to log in, read files, start programs, connect to the internet. All the boring but vital stuff. Examples include:
+
+* Linux,
+* Android,
+* Mac OSX,
+* Microsoft Windows.
 
 ## voltage
 
