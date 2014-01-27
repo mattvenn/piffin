@@ -3,6 +3,7 @@ import subprocess
 import os
 import sys
 import argparse
+import re
 
 root_dir = os.path.realpath(os.curdir)
 doc_dir=os.path.join(root_dir,'documentation')
@@ -44,7 +45,10 @@ def process(md_file):
                 #otherwise just copy the line
                 else:
                     dest.write(line)
-   
+
+                m = re.search('(\d+) : minutes', line)
+                if m:
+                    print m.group(1)
     
     
 
@@ -90,6 +94,10 @@ if __name__ == '__main__':
         directory = os.path.dirname(args.file)
         if os.path.isdir(directory):
             os.chdir(directory)
+
+        if not args.file.endswith('.md'):
+            print "not a md file"
+            exit(1)
         process(os.path.basename(args.file))
     else:
         #for all files...
