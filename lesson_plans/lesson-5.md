@@ -22,7 +22,7 @@ Students learn:
 * 15 [copies of the cheat sheet](../cheatsheet.html),
 * Pens and paper.
 
-## What do we need for a reaction timer? : 30 minutes
+## What do we need for a reaction timer? : 25 minutes
 
 Ask what hardware is needed? We react to the LED and push a button.
 

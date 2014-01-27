@@ -83,7 +83,7 @@ Challenge your students to finish the program themselves. If they get stuck, see
 
 ***flash.py
 
-## Running the program : 5 minutes
+## Running the program : 10 minutes
 
 When it comes to testing the program there are a few things to bear in mind:
 
@@ -100,7 +100,7 @@ We can ignore the warnings, but we need a way to run the program as the super us
 
 Remember that we expect a warning about the GPIO already being in use.
 
-## Build the circuit : 10 minutes
+## Build the circuit : 15 minutes
 
 Ask students to build the LED circuit in their handout. When their circuit is correct, their LED should start flashing.
 

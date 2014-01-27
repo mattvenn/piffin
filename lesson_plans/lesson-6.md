@@ -13,7 +13,7 @@
 
 ## Finish writing the code : 20 minutes
 
-## Build reaction timer hardware : 20 minutes
+## Build reaction timer hardware : 15 minutes
 
 * Follow circuit diagram to get the hardware ready. 
 * Test the led and the button with programs previously written.
