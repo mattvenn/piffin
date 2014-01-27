@@ -1,37 +1,45 @@
-## Flash an LED with Python : 20 minutes
+# Flash an LED with Python & Conditionals
 
-### Resources
+Intro
+
+# Learning objectives
+
+
+# Resources
 
 * Pi setup
 * LED, resistor, wires
+* Some A4 sheets of paper, pens
 
-### Overview
+# Lesson Summary
+
+## Flash an LED with Python : 20 minutes
 
 * Redo circuit diagram for Pi connection
 * `sudo` & `gksudo`
 * Copy the code to turn on and off an LED
 * Adapt the stopwatch code to make it flash forever
 
-### Extension
+### Extension activity
 
 * more LEDs
 
-### HW 
-
-* Research Raspberry Pi GPIOs. How many digital ins and outs. How many analogue ins and outs. What is the difference between analogue and digital?
-
 ## Conditional Tree : 20 minutes
-
-### Resources
-
-* Some A4 sheets of paper, pens
-
-### Overview
 
 Game to introduce branching behaviour in code
 
-### HW
+# Homework
 
-What conditions are there in making a cup of tea, walking home, doing homework?
+* Research Raspberry Pi GPIOs. How many digital ins and outs. How many analogue ins and outs. What is the difference between analogue and digital?
+* What conditions are there in making a cup of tea, walking home, doing homework?
 
+# Outcome
+
+All students:
+
+
+Most students:
+
+
+Some students:
 
