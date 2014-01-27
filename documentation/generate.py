@@ -29,6 +29,8 @@ def process(md_file):
     if args.verbose:
         print("doc commited on " + date)
 
+    #keep a track of timings!
+    total_minutes = 0
     with open(tmp_file, 'w') as dest:
         with open(md_file, 'r') as src:
             for line in src:
@@ -46,11 +48,12 @@ def process(md_file):
                 else:
                     dest.write(line)
 
-                m = re.search('(\d+) : minutes', line)
+                m = re.search('^##.* : (\d+) minutes', line)
                 if m:
-                    print m.group(1)
+                    total_minutes += int(m.group(1))
     
-    
+    if args.verbose and total_minutes > 0:
+        print(md_file + " total minutes: " + str(total_minutes))
 
     #for html output
     #process the markdown file with pandoc
@@ -73,6 +76,9 @@ def process(md_file):
     #remove the tmp file
     os.remove(tmp_file)
 
+    #separator
+    print("-" * 20)
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=
     """
@@ -87,6 +93,7 @@ if __name__ == '__main__':
         action='store_const', const=True, dest='nopdf', default=False,
         help="don't make pdf")
     parser.add_argument('--file', action='store', dest='file', help="single file to open")
+    parser.add_argument('--dir', action='store', dest='dir', help="directory to process")
 
     args = parser.parse_args()
 
@@ -101,6 +108,8 @@ if __name__ == '__main__':
         process(os.path.basename(args.file))
     else:
         #for all files...
+        if args.dir:
+            root_dir = args.dir
         for directory, subs, files in os.walk(root_dir):
             os.chdir(directory)
             for filename in files:
