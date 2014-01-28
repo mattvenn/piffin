@@ -62,14 +62,23 @@ Ground means 0 [volts](#voltage).
 ## GUI
 
 Stands for Graphical User Interface. This is the type of interface we're usually most used to - using a mouse to move a pointer, dragging and dropping. As opposed to a [CLI](#CLI)
+
 ## LED
+
 ## library
+
 ## Linux
+
 ## loop
+
 ## operator
+
 ## Pseudo code
+
 ## resistor
+
 ## terminal
+
 ## variable
 
 A variable allows us to store data, update the data, and retrieve the data.

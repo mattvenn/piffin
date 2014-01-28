@@ -38,3 +38,9 @@ lessons run in parallel? stickers and breakdown...
 # pdf links
 
 should go to something that works
+
+# glossary
+
+* complete
+* breadboard glossary pic should be smaller
+

@@ -4,7 +4,7 @@ Documentation to support the Piffin [Raspberry Pi experimenter's kit](http://www
 
 # Projects
 
-* [Reaction timer](reactiontimer/index.html)
+* [Reaction timer](reaction_timer/index.html)
 
 # Electronic Components
 
@@ -24,8 +24,12 @@ The Raspberry Pi holder makes things a lot easier, so either [buy one from us - 
 
 # Other resources
 
-* [Getting Support](support.html)
+* [Getting support for Piffin kits](support.html),
 * [Python cheat sheet](cheatsheet.html),
 * [Glossary](glossary.html),
 * [Raspberry Pi Forum](http://raspberrypi.org/phpBB3/),
 * [Raspberry Pi and Python CPD workshops for teachers](http://cpdforteachers.com).
+
+# Feedback
+
+We're always looking to improve our resources. Please send your comments to [info@piffin.co.uk](mailto:info@piffin.co.uk).
