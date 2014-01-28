@@ -20,7 +20,7 @@ For a class of 30, you will need:
 * 15 NOOBS SD cards,
 * 15 USB keyboards, mice,
 * 15 HDMI monitors,
-* 15 [Piffin Lab Kits](http://piffin.co.uk) or equivalent.
+* 15 [Piffin Lab Kit](http://www.piffin.co.uk/collections/shophome/products/raspberry-pi-prototyping-bundle-without-raspberry-pi) or equivalent.
 
 # Handouts
 

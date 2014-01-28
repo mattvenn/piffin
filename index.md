@@ -8,7 +8,7 @@ Documentation to support the Piffin [Raspberry Pi experimenter's kit](http://pif
 
 # Electronics
 
-The easiest way to provide the components you need is to buy the [Raspberry Pi lab kit from us at Piffin](http://piffin.co.uk).
+The easiest way to provide the components you need is to buy the [Raspberry Pi lab kit from us at Piffin](http://www.piffin.co.uk/collections/shophome/products/raspberry-pi-prototyping-bundle-without-raspberry-pi)
 
 You can also build a kit yourself that includes the following components:
 
@@ -20,7 +20,7 @@ You can also build a kit yourself that includes the following components:
 
 We advise buying at least 20% more than you need to account for losses. 
 
-Also, the Raspberry Pi holder makes things a lot easier, so either [buy one from us](http://www.piffin.co.uk/collections/shophome/products/raspberry-pi-prototyping-bundle-without-raspberry-pi), or [download the file](http://www.thingiverse.com/thing:231352) and get it laser cut. 
+The Raspberry Pi holder makes things a lot easier, so either [buy one from us](http://www.piffin.co.uk/collections/shophome/products/raspberry-pi-prototyping-bundle-without-raspberry-pi), or [download the file](http://www.thingiverse.com/thing:231352) and get it made on your school's laser cutter or at the [local hackspace](http://www.hackspace.org.uk/view/Main_Page).
 
 # Other resources
 
