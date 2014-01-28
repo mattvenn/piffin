@@ -34,3 +34,7 @@ lessons run in parallel? stickers and breakdown...
 # kit changes
 
 * blanking plug?
+
+# pdf links
+
+should go to something that works

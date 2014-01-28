@@ -159,6 +159,8 @@ GPIO.setmode(GPIO.BOARD)
 ~~~ {.python}
 #store the pin number in a variable
 led_pin = 8
+
+#set the GPIO up to be an output
 GPIO.setup(led_pin, GPIO.OUT)
 
 #turn on
@@ -173,7 +175,7 @@ GPIO.output(led_pin, False)
 #store the pin number in a variable
 button_pin = 10
 
-#set the pin to be high to start, low when pressed
+#set the GPIO to be an input that's high normally, low when pressed
 GPIO.setup(button_pin,GPIO.IN, pull_up_down=GPIO.PUD_UP)
 
 while True:
