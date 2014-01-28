@@ -66,7 +66,7 @@ We can reduce CPU usage by including a small delay in our loop. If it's too big 
 
 ## Example code
 
-This code adds the loop to continously check the button, and reduces CPU usage by using `time.sleep()` to add a small delay.
+This code adds the loop to continuously check the button, and reduces CPU usage by using `time.sleep()` to add a small delay.
 
 ***button.py
 

@@ -10,7 +10,7 @@ Students have mostly copied code and made minor modifications. This time we'll w
 
 Students learn:
 
-* To plan a program by analyising a problem and using pseudo code.
+* To plan a program by analysing a problem and using pseudo code.
 * Commenting code is useful as a development aid.
 * To use the `random` library
 
@@ -67,6 +67,7 @@ Pack away the Pi.
 
 # Homework
 
+Continue with the homework project from the last week. Students convert the software description they came up with to comments, and then start working on converting the comments into Python code.
 
 # Outcome
 
@@ -78,7 +79,7 @@ All students:
 
 Most students:
 
-* Understand that analyis of the problem first makes it easier to turn into code later.
+* Understand that analysis of the problem first makes it easier to turn into code later.
 
 Some students:
 

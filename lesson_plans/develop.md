@@ -1,26 +1,12 @@
 #develop
 
-* conditional/condition/condtional statement etc.
+* conditional/condition/conditional statement etc.
 
-* competition too early, will break pis?
+* competition too early, will break PIs?
 
-* Raspi pic with spaces for kids to fill in which bits do what
+* get pin number explanation in somewhere
 
-* psuedo code program cards:
-
-
-    get current time
-    get random number
-    sleep
-    turn on LED
-    store 
-    loop
-    if
-    button is pressed?
-    turn off LED
-    print
-
-doesn't include - operator, or break.
+* pseudo code cards don't include break or -
 
 # lesson 3
 
@@ -34,13 +20,17 @@ how to copy the agreed code? photo? bluetack to white board?
 
 * what happens when you pull the plug on a noobs install. can start again?
 * gksudo idle message
-* check cpu usage with different delay times in button.py
+* check CPU usage with different delay times in button.py
 
 # need to find out
 
 lessons run in parallel? stickers and breakdown...
 
+# good feedback questions
+
+* cost
+* parallel running or can leave circuits built
+
 # kit changes
 
-* blanking plug
-* extra bolts
+* blanking plug?

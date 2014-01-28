@@ -74,7 +74,7 @@ Pack away the Pi.
 
 # Homework
 
-Come up with an application that required 2 or more leds. Draw a circuit diagram.
+Come up with an application that required 2 or more LEDs. Draw a circuit diagram.
 
 # Outcome
 

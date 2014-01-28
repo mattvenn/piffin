@@ -40,6 +40,8 @@ Also, the Raspberry Pi holder makes things a lot easier, so either [buy one from
 
 If your students already have a basic grounding in Python, you can optionally skip the Turtle Prize (though we encourage you to enter anyway!)
 
+Ensure that students keep their handouts as older ones come into use again later on.
+
 * Introduction to Python with 3 lesson plans from [the Turtle Prize competition](http://turtleprize.com).
 * [The Raspberry Pi](lesson-1.html)
 * [Elementary electronics & Python Stopwatch](lesson-2.html)
@@ -50,8 +52,8 @@ If your students already have a basic grounding in Python, you can optionally sk
 
 # Other resources
 
-* [Piffin support](http://piffin.co.uk), todo
-* [Python cheatsheet](../cheatsheet.html),
+* [Getting Support](../support.html)
+* [Python cheat sheet](../cheatsheet.html),
 * [Glossary](../glossary.html),
 * [Raspberry Pi Forum](http://raspberrypi.org/phpBB3/),
 * [Raspberry Pi and Python CPD workshops for teachers](http://cpdforteachers.com).
