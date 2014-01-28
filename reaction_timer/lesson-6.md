@@ -1,4 +1,8 @@
-# Build reaction timer hardware & Test
+% The Reaction Timer part 2
+% PIffIN
+%
+
+# Reaction Timer part 2
 
 # Learning objectives
 
@@ -52,7 +56,7 @@ Continue from the project started in lesson 4. Students should now have a projec
 
 They should include:
 
-* Why it's a worth project,
+* Why it's a worthy project,
 * Where they think the difficulties are.
 
 If you want to do another Pi project, you could ask the students to present their work and use the most voted project as the starting point.

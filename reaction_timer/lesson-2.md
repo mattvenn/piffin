@@ -1,4 +1,4 @@
-% Elementary electronics & Python
+% Elementary electronics & Python Stopwatch
 % Piffin
 %
 
@@ -70,11 +70,18 @@ Ask students to change the stopwatch so it counts in tenths of a second instead 
 
 ## Pack away : 5 minutes
 
-Pack away the Pi.
+Pack away the Pi. This time we are doing it properly:
+
+* Log out,
+* Type `sudo halt`,
+* Wait until the lights go out,
+* Unplug the cables and pack into the box.
+
+These steps are included in the handout.
 
 # Homework
 
-Come up with an application that required 2 or more LEDs. Draw a circuit diagram.
+Come up with a project that requires 2 or more LEDs. Explain what will happen and draw a circuit diagram.
 
 # Outcome
 

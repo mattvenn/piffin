@@ -1,4 +1,4 @@
-% Raspberry Pi
+% The Raspberry Pi
 % PIffIN
 %
 
@@ -76,7 +76,11 @@ This process takes about 10 minutes, so while we wait complete the following act
 
 ## Pack away : 5 minutes
 
-Pack away the Pi.
+Pack away the Pi:
+
+* Unplug the power cable,
+* Unplug the other cables,
+* Pack into the box.
 
 # Homework
 

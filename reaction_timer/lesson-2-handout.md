@@ -27,3 +27,11 @@ The numbers on the left are line numbers and don't need to be typed in.
 The codes on the right are Python commands and they have to be copied exactly as written. Make sure you copy all the symbols, and that everything is in the correct case.
 
 ***stopwatch.py
+
+# How to safely pack away
+
+* Log out,
+* Type `sudo halt`,
+* Wait until the lights go out,
+* Unplug the cables and pack into the box.
+

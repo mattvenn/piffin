@@ -4,7 +4,9 @@
 
 # Flash an LED with Python
 
-Last time we made a simple LED circuit, but we didn't control it with the Pi, this time we'll do that by building a flashing LED circuit and program.
+Last time we made a simple LED circuit, but we didn't control it with the Pi.
+This time we'll do that by building a similar LED circuit and linking it to a Python program.
+Once we can control an LED, the same technique can be used to control motors, speakers and other actuators.
 
 # Learning objectives
 
@@ -12,7 +14,7 @@ Students will learn:
 
 * How to use the Pi to control a [GPIO](../glossary.html#gpio),
 * looping,
-* using the time library.
+* how to pause a Python program using the time library.
 
 # Resources
 
@@ -104,18 +106,20 @@ Remember that we expect a warning about the GPIO already being in use.
 
 Ask students to build the LED circuit in their handout. When their circuit is correct, their LED should start flashing.
 
+Explain that the controlling an LED is just the first and simplest thing we can control. We can use the same technique for controlling motors, though we'd also need some kind of amplifier.
+
 ### Extension activity
 
 * The circuit has 2 LEDs, but we're only flashing one. Ask the students to modify the code to control the other LEDs
 
 ## Pack away : 5 minutes
 
-Pack away the Pi.
+Pack away the Pi. Remind students to follow the instructions in last lesson's handout.
 
 # Homework
 
 * Research Raspberry Pi GPIOs. How many digital ins and outs. How many analogue ins and outs. What is the difference between analogue and digital?
-* Explain that the codes we've been writing so far have been sequential, in that the codes are executed one after the other. If we ever want our programs to do different things depending on what's happening around us we need to be able to make decisions in the code. These decisions are called [conditions](../glossary.html#conditional). Ask what conditions are there in making a cup of tea, walking home, doing homework?
+* Ask students to think of some things they'd like to control with a computer.
 
 # Outcome
 

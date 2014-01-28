@@ -10,9 +10,9 @@ Now we're moving onto buttons, we need to be able to use [conditions](../glossar
 
 Students will learn:
 
-* What a conditional statement is.
-* How to write a conditional in Python.
-* Build a button circuit.
+* What a conditional statement is,
+* How to write a conditional in Python,
+* Build a button circuit,
 * Detect a button press with Python.
 
 # Resources
@@ -27,7 +27,7 @@ Students will learn:
 You'll need some room to play this physical game. Outside works well!
 
 * Ask the class for some True or False questions eg: Are you a boy?, Do you get driven to school?
-* Get 3 of these questions, and write them each on a piece of paper.
+* Get 3 of these questions, and write them each on a piece of paper,
 * Get 3 volunteers to be the conditionals, they will each be assigned one of the above questions.
 
 Stand the the conditionals so one is at the front, then the other 2 are behind in a v shape.
@@ -35,8 +35,8 @@ The rest of the class line up and one by one they go through the ‘tree’. The
 
 ### Tips
 
-* Works well with a whole class. 
-* Having cones at the points of a tree helps to structure the game. For 3 conditionals, you’d need 7 cones, 3 for the conditions and 4 for the possible outcomes. 
+* Works well with a whole class, 
+* Having cones at the points of a tree helps to structure the game. For 3 conditionals, you’d need 7 cones, 3 for the conditions and 4 for the possible outcomes, 
 * Sometimes students forget which way to go, so having True and False with arrows on the paper can help.
 
 ## Setup the Pi : 5 minutes
@@ -76,7 +76,7 @@ Pack away the Pi.
 
 # Homework
 
-* Read this webpage on the  [one button audio book](http://blogs.fsfe.org/clemens/2012/10/30/the-one-button-audiobook-player/).
+* Read this webpage on the  [one button audio book](http://blogs.fsfe.org/clemens/2012/10/30/the-one-button-audiobook-player/),
 * Come up with an idea for a project that involves an LED and a button. Draw a picture of the circuit and describe how the software will work.
 
 # Outcome

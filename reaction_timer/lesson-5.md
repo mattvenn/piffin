@@ -1,4 +1,8 @@
-# The reaction timer
+% The Reaction Timer
+% PIffIN
+%
+
+# The Reaction Timer
 
 Now we've learnt how to setup the Pi, write some simple programs, flash an LED and detect a button - we're ready to start making some cool stuff! 
 
@@ -28,15 +32,59 @@ Ask what hardware is needed? We react to the LED and push a button.
 
 Discuss with the class how the software will work. 
 
+## Pseudo code
+
 Tell the students to get into groups of 4 and use the program cards to lay out a program sequence (from top to bottom).
+They'll need to use the blank ones to add their own variable names or extra codes.
 
 After a few minutes ask 2 members of each team to walk around and get ideas from the other teams. They can ask questions, and the remaining members answer them.
 
+### Example code
+
+My variable names are written in blue.
+
+\ ![Example pseudo code](reaction_code_cards.png)
+
 If you're feeling shaky with Python, then you can ask the whole class to agree to follow one team's program structure. This will make it easier to debug code later.
 
-Ask students to get back in pairs, and to copy the program structure into a new program in Idle called `reaction.py`.
+### Convert pseudo code to Python comments
 
-Start each line with a `#` to make it a comment. The lines will change colour to remind them it's a comment.
+Ask students to get back in pairs, open a new program with Idle and save it as `reaction.py`.
+
+Ask students to copy the code structure into their program, starting each line with a `#` so it becomes a comment.
+The lines will change colour to remind them it's a comment.
+
+It should end up something like this:
+
+~~~ python
+#pick a random number and store in sleep_time
+
+#sleep for sleep_time seconds
+
+#turn on the led 
+
+#store the current time in start_time
+
+#in a loop:
+    #if the button is pressed:
+        #break out of the loop
+
+#work out how long they took by subtracting the start_time now from the time now
+
+#print out how long they took
+~~~
+
+## Extra Python
+
+We've introduced 2 commands with the program cards that we haven't covered yet in Python. These are also included in the handouts.
+
+### Generating a random number
+
+***random_demo.py
+
+### Ending a loop
+
+***breakloop_demo.py
 
 ## Build reaction timer software : 30 minutes
 
@@ -44,18 +92,11 @@ Students work in pairs to convert the comments into Python code. They can refere
 
 Ask them to start at the top and to test each line of code at a time by saving and running the code.
 
-There will be some places where they get stuck with not knowing enough Python. See below for some missing pieces.
+If students get stuck, remind them to look at their previous programs:
 
-They can also reference the cheat sheet.
-
-### Missing pieces of Python
-
-We've missed out 2 pieces:
-
-* Generating random number,
-* Breaking out of a loop.
-
-These are provided in the handout.
+* `stopwatch` for getting the time, delaying, printing and storing variables,
+* `flash` for turning on and off LEDs,
+* `button` for detecting a button press.
 
 ## Reference code
 
@@ -80,6 +121,3 @@ All students:
 Most students:
 
 * Understand that analysis of the problem first makes it easier to turn into code later.
-
-Some students:
-
