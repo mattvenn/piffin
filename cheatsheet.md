@@ -147,11 +147,12 @@ my_func(10,100)
 
 # Raspberry Pi GPIOs
 
-Import the library and set the pin numbering to board mode:
+Import the library, set the pin numbering to board mode and turn off distracting warnings:
 
 ~~~ {.python}
 import RPi.GPIO as GPIO
 GPIO.setmode(GPIO.BOARD)
+GPIO.setwarnings(False)
 ~~~
 
 ## Outputs
