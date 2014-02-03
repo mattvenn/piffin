@@ -68,6 +68,9 @@ def process(md_file):
         toc = '--toc'
         if 'handout' in md_file:
             toc = ''
+        #hackety hack
+        if 'cheatsheet' in md_file:
+            toc = ''
         #fonts work with xelatex
         if args.verbose:
             print("making " + pdf_file)
@@ -77,7 +80,8 @@ def process(md_file):
     os.remove(tmp_file)
 
     #separator
-    print("-" * 20)
+    if args.verbose:
+        print("-" * 20)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=
