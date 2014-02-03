@@ -49,6 +49,8 @@ Ask the students to open the `stopwatch.py` program they used last time and save
     * print 'LED off' on one line
     * wait 1 second
 
+Go round the class and check that everyone has managed to get the program printing out the messages.
+
 ## Add the LED control : 10 minutes
 
 We need to use another library to control the LEDs. Get the students to add these lines to the top of their `flash.py` code.
@@ -100,15 +102,25 @@ This is because we can only access the GPIOs as the super user (root). Here's ho
 * A warning window will pop up which you can ignore,
 * Now open your program as before and use `f5` to run.
 
+These instructions are also in the handout.
+
 ## Build the circuit : 15 minutes
 
 Ask students to build the LED circuit in their handout. When their circuit is correct, their LED should start flashing.
 
+Explain that the LED is connected to pin 8 because we set the `led_pin` variable to pin 8 in the software. If we wanted the LED on another pin, we'd have to make sure the hardware and the software matched up. We can use any pin that isn't marked `GND`, `3.3v` or `5v`.
+
+If you're not using our Pi mounting kits, then here's a picture of the GPIOs with `ground` (same as `GND`), `3.3v` or `5v` marked.
+
+\ ![GPIOs](gpios.png)
+
 Explain that the controlling an LED is just the first and simplest thing we can control. We can use the same technique for controlling motors, though we'd also need some kind of amplifier.
 
-### Extension activity
+### Extension activities
 
-* The circuit has 2 LEDs, but we're only flashing one. Ask the students to modify the code to control the other LEDs
+* Make the LED flash the morse code of the student's initials.
+* Move the LED onto another pin and change the software to match.
+* Add an extra LED and update the software to flash both LEDs.
 
 ## Pack away : 5 minutes
 

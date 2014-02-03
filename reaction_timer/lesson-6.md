@@ -4,6 +4,8 @@
 
 # Reaction Timer part 2
 
+Last time we made a good start on the software. In the final lesson we'll finish the software, build the hardware and see who's got the fastest reactions!
+
 # Learning objectives
 
 Students will learn:

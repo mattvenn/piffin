@@ -36,8 +36,8 @@ If your students already have a basic grounding in Python, you can optionally sk
 * [Elementary electronics & Python Stopwatch](lesson-2.html)
 * [Flash an LED with Python](lesson-3.html)
 * [Detecting button presses with conditionals](lesson-4.html)
-* [What do we need for a reaction timer](lesson-5.html)
-* [Build reaction timer hardware & Test](lesson-6.html)
+* [Starting the reaction timer](lesson-5.html)
+* [Build reaction timer circuit & Test](lesson-6.html)
 
 # Download
 

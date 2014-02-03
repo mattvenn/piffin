@@ -10,7 +10,8 @@ It's a good idea to comment your code, to help you remember what's happening whe
 
 Follow the diagram to build the circuit. Common problems are:
 
-* check the components are inserted properly, with their legs deeply inserted into the breadboard
+* Check the components are inserted properly, with their legs deeply inserted into the breadboard,
+* You might need to press quite hard on the button to get them in properly.
 
 \ ![Button circuit](1button.png)
 

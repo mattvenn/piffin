@@ -45,7 +45,9 @@ Setup the Pi and get logged in.
 
 ## Detect a button with Python : 10 minutes
 
-Ask the students to copy the code in their handout into a new file called `button.py`
+Ask the students to copy the code in their handout into a new file called `button.py`. 
+Explain that the `if` and the `else` are doing the same task as the people in the conditional tree game. 
+This is the part that allows the code to do 2 different things depending on whether the button is pressed.
 
 ## Build the circuit : 10 minutes
 
@@ -56,7 +58,7 @@ Ask the students to build the circuit shown in the handout.
 Run the code as detailed in the previous lesson. Students will discover that the code only checks the button once. 
 They'll have to hold the button before starting the program to ever see the message that the button is pressed.
 
-Ask the students to modify the code, adding a loop so that the program is checking continuously if the button is pressed. If they are stuck as them to look at the loop in the `flash.py` example.
+Ask the students to modify the code, adding a loop so that the program is checking continuously if the button is pressed. If they are stuck as them to look at the loop in the `flash.py` or `stopwatch.py` examples. The [cheat sheet](../cheatsheet.html#loops) also has a looping example.
 
 Once the students have done added a loop, ask them to look at the little box in the bottom right corner of the screen that shows CPU usage. They'll see that when they run the program the CPU is working at 100%!
 
@@ -76,7 +78,7 @@ Pack away the Pi.
 
 # Homework
 
-* Read this webpage on the  [one button audio book](http://blogs.fsfe.org/clemens/2012/10/30/the-one-button-audiobook-player/),
+* Read this webpage on the one button audio book: [http://bit.ly/1-bab](http://bit.ly/1-bab),
 * Come up with an idea for a project that involves an LED and a button. Draw a picture of the circuit and describe how the software will work.
 
 # Outcome

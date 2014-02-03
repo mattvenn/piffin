@@ -14,9 +14,10 @@ Students have mostly copied code and made minor modifications. This time we'll w
 
 Students learn:
 
-* To plan a program by analysing a problem and using pseudo code.
-* Commenting code is useful as a development aid.
-* To use the `random` library
+* To plan a program by analysing a problem and using pseudo code,
+* Commenting code is useful as a development aid,
+* To use the `random` library,
+* To use the `break` keyword to break out of a loop.
 
 # Resources
 
@@ -29,7 +30,7 @@ Students learn:
 ## What do we need for a reaction timer? : 25 minutes
 
 Ask what hardware is needed? We react to the LED and push a button.
-
+The LED has to light after a random time so we can't predict it.
 Discuss with the class how the software will work. 
 
 ## Pseudo code
@@ -45,7 +46,7 @@ My variable names are written in blue.
 
 \ ![Example pseudo code](reaction_code_cards.png)
 
-If you're feeling shaky with Python, then you can ask the whole class to agree to follow one team's program structure. This will make it easier to debug code later. Then use a phone to take a photo and email yourself or ask someone to copy it onto the board.
+If you're feeling shaky with Python, then you can ask the whole class to agree to follow one team's program structure. This will make it easier to debug code later. Then take a photo and show it on the projector or ask someone to copy it onto the white board. Make sure you save it for the next lesson!
 
 ### Convert pseudo code to Python comments
 
