@@ -2,7 +2,7 @@
 
 Documentation to support the Piffin [Raspberry Pi experimenter's kit](http://www.piffin.co.uk/collections/shophome/products/raspberry-pi-lab-kit).
 
-# Projects
+# Schemes of work & lesson plans
 
 * [Reaction timer](reaction_timer/index.html)
 
@@ -20,7 +20,7 @@ You can also build a kit yourself that includes the following components:
 
 We advise buying at least 20% more than you need to account for losses. 
 
-The Raspberry Pi holder makes things a lot easier, so either [buy one from us - includes breadboard](http://www.piffin.co.uk/collections/shophome/products/raspberry-pi-prototyping-bundle-without-raspberry-pi), or [download the file](http://www.thingiverse.com/thing:231352) and get it made on your school's laser cutter or at the [local hackspace](http://www.hackspace.org.uk/view/Main_Page).
+The Raspberry Pi holder makes things a lot easier, so either [buy one from us (includes breadboard)](http://www.piffin.co.uk/collections/shophome/products/raspberry-pi-prototyping-bundle-without-raspberry-pi), or [download the file](http://www.thingiverse.com/thing:231352) and get it made on your school's laser cutter or at the [local hackspace](http://www.hackspace.org.uk/view/Main_Page).
 
 # Other resources
 
