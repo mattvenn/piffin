@@ -68,7 +68,7 @@ Ground means 0 [volts](#voltage).
 
 ## GUI
 
-Stands for Graphical User Interface. This is the type of interface we're usually most used to - using a mouse to move a pointer, dragging and dropping. As opposed to a [CLI](#CLI)
+Stands for Graphical User Interface. This is the type of interface we're usually most used to - using a mouse to move a pointer, dragging and dropping. As opposed to a [CLI](#cli)
 
 ## LED
 
@@ -80,7 +80,7 @@ A set of codes we can borrow for our program. Often written by someone else. Com
 
 ## Linux
 
-A type of operating system. Others you may have heard of are `Apple OSX`, `Microsoft windows` and `Android`. Linux is used on the Raspberry Pi.
+The [Operating System](#operating-system) used on the Raspberry Pi. Linux is free and you can download and read the code that makes it work. It is also used on about 30% of the web sites on the internet.
 
 ## Loop
 
@@ -92,11 +92,11 @@ A way of repeating computer instructions. For example if we want to print out a 
 
 Some examples of operators in Python:
 
-* + to add
-* * to multiply
-* - to subtract
-* / to divide
-* = to assign a value to a variable
+* `+` to add
+* `*` to multiply
+* `-` to subtract
+* `/` to divide
+* `=` to assign a value to a variable
 
 ## Pseudo code
 
@@ -127,7 +127,7 @@ We store that number in a variable (line 1), update it every time we run the loo
 
 ***var_demo.py
 
-## Operating System (OS)
+## Operating System
 
 The software that runs on a computer that allows us to log in, read files, start programs, connect to the internet. All the boring but vital stuff. Examples include:
 
