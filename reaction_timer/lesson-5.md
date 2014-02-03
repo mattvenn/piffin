@@ -45,7 +45,7 @@ My variable names are written in blue.
 
 \ ![Example pseudo code](reaction_code_cards.png)
 
-If you're feeling shaky with Python, then you can ask the whole class to agree to follow one team's program structure. This will make it easier to debug code later.
+If you're feeling shaky with Python, then you can ask the whole class to agree to follow one team's program structure. This will make it easier to debug code later. Then use a phone to take a photo and email yourself or ask someone to copy it onto the board.
 
 ### Convert pseudo code to Python comments
 
@@ -80,9 +80,13 @@ We've introduced 2 commands with the program cards that we haven't covered yet i
 
 ### Generating a random number
 
+Here we import a new library called `random` and then use `randint()` to produce a random number between 1 and 5:
+
 ***random_demo.py
 
 ### Ending a loop
+
+Here we use `break` to end the `while` loop:
 
 ***breakloop_demo.py
 

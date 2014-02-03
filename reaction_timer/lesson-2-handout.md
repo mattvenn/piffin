@@ -1,14 +1,14 @@
 # Logging into the Pi and starting Idle
 
-You should see a black screen full of white text that ends with `raspberrypi login:`
+After the Pi has been plugged together and turned on, you should see a black screen full of white text that ends with `raspberrypi login:`
 The username and password are all lower case:
 
 * username: `pi`
 * password: `raspberry`
 
-While typing the password you won't see any characters appearing.
+While typing the password you won't see any characters appearing, this is to stop people from knowing how long your password is.
 
-After logging in, start the GUI by typing `startx`. Then double click on the Idle icon on the desktop.
+After logging in, start the [GUI](../glossary.html#gui) by typing `startx`. Then double click on the Idle icon on the desktop.
 
 # Simple LED
 

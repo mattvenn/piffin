@@ -55,11 +55,12 @@ We need to use another library to control the LEDs. Get the students to add thes
 
 These lines are also in the handout.
 
-The first line imports the new library, and the second sets the library so we can refer to the pins by their physical number: 
+The first line imports the new library, the second sets the library so we can refer to the pins by their physical number, and the 3rd turns off some distracting warnings: 
 
 ~~~ {.python}
 import RPi.GPIO as GPIO
 GPIO.setmode(GPIO.BOARD)
+GPIO.setwarnings(False)
 ~~~
 
 Now we store the pin number in a variable, so it's easy to change later, and then set that pin to be an output:
@@ -87,20 +88,17 @@ Challenge your students to finish the program themselves. If they get stuck, see
 
 ## Running the program : 10 minutes
 
-When it comes to testing the program there are a few things to bear in mind:
+Ask the students to run the program. It will fail with this error:
 
-* We can only access the GPIOs as the super user.
-* We'll get a warnings once we've used the GPIOs once.
+`RuntimeError: No access to /dev/mem.  Try running as root!`
 
-We can ignore the warnings, but we need a way to run the program as the super user to get anything to work. 
+This is because we can only access the GPIOs as the super user (root). Here's how to run Idle as the super user:
 
 * Close Idle,
 * Open a terminal (start menu->accessories->lxterminal),
 * Type `gksudo idle` and press enter,
 * A warning window will pop up which you can ignore,
 * Now open your program as before and use `f5` to run.
-
-Remember that we expect a warning about the GPIO already being in use.
 
 ## Build the circuit : 15 minutes
 

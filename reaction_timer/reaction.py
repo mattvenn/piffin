@@ -2,9 +2,8 @@
 import time
 import random
 import RPi.GPIO as GPIO
-
-#setup the led and the switch
 GPIO.setmode(GPIO.BOARD)
+GPIO.setwarnings(False)
 
 button_pin = 8
 led_pin = 10
@@ -18,10 +17,10 @@ GPIO.setup(led_pin, GPIO.OUT)
 GPIO.output(led_pin,False)
 
 #how long should we wait before turning on the led
-seconds = random.randint(3,10)
+sleep_time = random.randint(3,10)
 
 #wait for our random time
-time.sleep(seconds)
+time.sleep(sleep_time)
 
 #turn on the led and store the current time in a variable
 GPIO.output(led_pin, True)
@@ -31,8 +30,9 @@ start_time = time.time()
 while True:
     if GPIO.input(button_pin) == False:
         print("stopped!")
-        #work out how long they took:
-        reaction_time = time.time() - start_time
-        print("you got" + str(reaction_time) + "seconds")
-        #and finish the while loop
+        #finish the while loop
         break
+
+#work out how long they took:
+reaction_time = time.time() - start_time
+print("you got" + str(reaction_time) + "seconds")

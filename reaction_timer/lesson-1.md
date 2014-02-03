@@ -12,10 +12,10 @@ If you do have the facility to leave equipment setup, then take a little longer 
 
 Students will learn:
 
-* will learn what the Pi is,
-* what the various sockets are for,
-* how to set up and take apart the Pi,
-* how to get an SD card ready to use.
+* What the Pi is,
+* What the various sockets are for,
+* How to set up and take apart the Pi,
+* How to get an SD card ready to use.
 
 # Resources
 
@@ -30,7 +30,7 @@ Students will learn:
 
 ## Introduction to the Pi : 10 minutes
 
-Show the students the Pi and ask if they know what it is. Explain that over the next few weeks they'll be learning how to use one, to write code on it, and how to build circuits that will allow them to build a reaction timer. At the end of the sessions, everyone will compete to see who has the fastest reactions.
+Show the students the Pi and ask if they know what it is. Explain that over the next few weeks they'll be learning how to use one, to write code on it, and to build circuits that will allow them to build a reaction timer. At the end of the sessions, everyone will compete to see who has the fastest reactions.
 
 If you're not sure what the ports are yourself, [make sure you look at this picture!](http://www.raspberrypi.org/wp-content/uploads/2011/07/RaspiModelB.png)
 
@@ -69,9 +69,9 @@ Explain that the SD card that stores the operating system and all our files is c
 
 This process takes about 10 minutes, so while we wait complete the following activities. Walk around the class and check that the installation is proceeding as expected. We need this to work so that next week we can login to the Pi.
 
-* Ask the students to pick a team name, and write it on the front of the Lab kit box,
 * Ask the students to start assembling the holder (sticking on the feet and breadboard) - leave attaching the Pi until later. Ensure the students keep the little plastic screws safe in the bag.
-* Ask if anyone has heard of or used Linux. Explain that Linux is a free [operating system](../glossary.html#operating-system-os). Android is a variant of Linux developed by Google.
+* Ask the students to pick a team name, and write it on the front of the Lab kit box,
+* Ask if anyone has heard of or used Linux. Explain that Linux is a free [operating system](../glossary.html#operating-system). Android is a variant of Linux developed by Google.
 * Explain that the Pi runs Linux, and so to use it we'll have to learn how to use it.
 
 ## Pack away : 5 minutes
@@ -95,5 +95,5 @@ All students:
 
 Most students:
 
-* Can set up the Pi in less than 3 minutes
-* Understand that Pi runs an operating system called Linux, which is installed on the SD card
+* Can set up the Pi in less than 3 minutes,
+* Understand that Pi runs an operating system called Linux, which is installed on the SD card.

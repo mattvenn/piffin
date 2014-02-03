@@ -8,11 +8,12 @@ print("hello")
 
 # Controlling the GPIOs with Python
 
-The first line imports the new library, and the second sets the library so we can refer to the pins by their physical number: 
+The first line imports the new library, the second sets the library so we can refer to the pins by their physical number, and the 3rd turns off some distracting warnings: 
 
 ~~~ {.python}
 import RPi.GPIO as GPIO
 GPIO.setmode(GPIO.BOARD)
+GPIO.setwarnings(False)
 ~~~
 
 Now we store the pin number in a variable, so it's easy to change later, and then set that pin to be an output:

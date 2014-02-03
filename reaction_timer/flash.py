@@ -1,6 +1,7 @@
 #import the library to control the GPIO pins
 import RPi.GPIO as GPIO
 GPIO.setmode(GPIO.BOARD)
+GPIO.setwarnings(False)
 
 #import the time library
 import time
