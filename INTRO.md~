@@ -1,0 +1,29 @@
+## Piffin experimenter's kit
+
+Thank you for purchasing our Raspberry Pi Lab Kit. We have put everything together to make it easy to teach ICT content in a classroom environment and tested everything we thought necessary. 
+
+# Download the code
+
+On your Raspberry Pi, open a terminal window and type
+
+    wget https://github.com/mattvenn/piffin/archive/master.zip
+    unzip master.zip
+    cd experimenter-kit
+
+# Explore the code
+
+Have a look at the README.md files associated with the demos by clicking the button and led folders above.
+
+# Having Trouble?
+
+If you have any problems or think there's something we've missed there are a few things you can do:
+
+- Firstly check out our 'piffin' tag on StackExchange: (http://raspberrypi.stackexchange.com/questions/tagged/piffin)
+
+- Check through the README.md file
+
+- Get in touch by emailing info@piffin.co.uk
+
+- Tweet us @Piffin_ [ http://twitter.com/Piffin_ ]
+
+
