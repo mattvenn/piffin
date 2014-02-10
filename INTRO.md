@@ -12,10 +12,10 @@ We designed the holder to keep your Raspberry Pi and breadboard next to each oth
 - Attach 6 of the rubber bumpers to the underside of the plastic holder - on the circle outlines.
 - Attach the remaining 2 bumpers to the other side of the plastic holder - above the full etched circles.
 - Peel off the backing from the breadboard and stick to the plastic holder. 
-- Put 2x bolts through the plastic holder, the spacers on the bolts, the Raspberry Pi on the spacers and finally the nuts to hold everything in place.
+- Put 2x bolts through the plastic holder, the spacers on the bolts, the Raspberry Pi on the spacers and finally add and tighten the nuts to hold everything in place.
 - Your Raspberry Pi prototyping holder is assembled and ready to use
 
-\ ![holder assembly](documentation/RPIH/RPIH-ASSEMBLY-DIAG-A4.png)
+ ![holder assembly](documentation/RPIH/RPIH-ASSEMBLY-DIAG-A4.png)
 
 # Having Trouble?
 
@@ -36,4 +36,4 @@ We aim to respond to emails directed to [info@piffin.co.uk](mailto:info@piffin.c
 
 ## Twitter
 
-Tweet us [@Piffin_](http://twitter.com/Piffin_)
+Tweet us [@Piffin_ ](http://twitter.com/Piffin_)
