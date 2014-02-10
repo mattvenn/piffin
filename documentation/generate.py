@@ -71,6 +71,8 @@ def process(md_file):
         #hackety hack
         if 'cheatsheet' in md_file:
             toc = ''
+        if 'INTRO' in md_file:
+            toc = ''
         #fonts work with xelatex
         if args.verbose:
             print("making " + pdf_file)

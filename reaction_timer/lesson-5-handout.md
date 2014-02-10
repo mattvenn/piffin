@@ -1,4 +1,6 @@
-# Missing pieces of Python
+# Lesson 5 Handout
+
+## Missing pieces of Python
 
 For our reaction timer, we need to generate a random number. This can be done using the `random` library. The following code prints out a random integer between 1 and 5:
 

@@ -1,4 +1,6 @@
-# Detecting a button press
+# Lesson 4 Handout
+
+## Detecting a button press
 
 Copy the code below into a new file called `button.py`. Remember the lines that start with a `#` are comments, and are ignored by Python. 
 
@@ -6,7 +8,7 @@ It's a good idea to comment your code, to help you remember what's happening whe
 
 ***button_noloop.py
 
-# Button circuit
+## Button circuit
 
 Follow the diagram to build the circuit. Common problems are:
 

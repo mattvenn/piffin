@@ -1,4 +1,4 @@
-% The Raspberry Pi
+% Lesson 1 - The Raspberry Pi
 % PIffIN
 %
 
@@ -50,9 +50,9 @@ We want to waste as little time as possible setting up and breaking down, so we'
 
 Tell the students you forgot your stop watch so you'll have to write one on the computer. Start Idle, create a new window and type the above code in. When you run the program the counter will start in the `shell`. You can adjust the size of the font using the `options -> configure idle` menu. Show the students what the output looks like and we'll be recording the shortest and longest time.
 
-Ensure everyone is ready with their Pi equipment, and then start the program running.
+Ensure everyone is ready with their Pi equipment, and then start the program running. To end it you'll have to press `ctrl + c`.
 
-Write down how the fastest and slowest times it took to set up.
+Assign team numbers and write down how the fastest and slowest times it took to set up.
 
 Remember where you saved the stopwatch program! We'll be using it again.
 
@@ -64,23 +64,34 @@ The result should be all the screens showing the NOOBS install screen, similar t
 
 Explain that the SD card that stores the operating system and all our files is currently not ready to use. We have to use the NOOBS interface to install the operating system. Here's how:
 
-* Ask the students to tick the first box next to *Raspian [RECOMMENDED]*,
+* Ask the students to tick the 4th box down next to *Raspian - Boot to Desktop*,
 * Then click the top left icon that says *Install*.
 
 This process takes about 10 minutes, so while we wait complete the following activities. Walk around the class and check that the installation is proceeding as expected. We need this to work so that next week we can login to the Pi.
 
 * Ask the students to start assembling the holder (sticking on the feet and breadboard) - leave attaching the Pi until later. Ensure the students keep the little plastic screws safe in the bag.
-* Ask the students to pick a team name, and write it on the front of the Lab kit box,
+* Ask the students to write their team number on the front of the Lab kit box,
 * Ask if anyone has heard of or used Linux. Explain that Linux is a free [operating system](../glossary.html#operating-system). Android is a variant of Linux developed by Google.
 * Explain that the Pi runs Linux, and so to use it we'll have to learn how to use it.
+
+After Linux has been installed this screen will appear:
+
+\ ![Raspi-Config](raspi-config.png)
+
+Ask the students to press the tab key twice to highlight the `finish` text, and then press enter. The Pi will then reboot and load the desktop.
 
 ## Pack away : 5 minutes
 
 Pack away the Pi:
 
+* Click the red power button on the bottom right of the screen,
+* Choose to `shut down`,
+* Wait till only the red light shows on the Pi,
 * Unplug the power cable,
 * Unplug the other cables,
 * Pack into the box.
+
+These steps are included in the handout.
 
 # Homework
 

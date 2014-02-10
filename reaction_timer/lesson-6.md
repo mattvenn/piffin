@@ -1,4 +1,4 @@
-% The Reaction Timer part 2
+% Lesson 6 - The Reaction Timer part 2
 % PIffIN
 %
 

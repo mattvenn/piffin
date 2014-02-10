@@ -1,4 +1,4 @@
-% The Reaction Timer
+% Lesson 5 - The Reaction Timer
 % PIffIN
 %
 
@@ -30,7 +30,8 @@ Students learn:
 ## What do we need for a reaction timer? : 25 minutes
 
 Ask what hardware is needed? We react to the LED and push a button.
-The LED has to light after a random time so we can't predict it.
+Ask what software is needed? The LED has to light after a random time so we can't predict it.
+
 Discuss with the class how the software will work. 
 
 ## Pseudo code

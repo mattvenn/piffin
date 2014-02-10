@@ -1,4 +1,4 @@
-% Elementary electronics & Python Stopwatch
+% Lesson 2 - Elementary electronics & Python Stopwatch
 % Piffin
 %
 
@@ -38,7 +38,9 @@ Explain [how a breadboard works](../glossary.html#breadboard) using the glossary
 
 Explain that the students should follow the diagram in their handout to build a simple LED circuit. For now, the Raspberry Pi is just powering the LED using its internal power supply. We are unable to switch the LED on and off with this circuit.
 
-While the students start building the circuit, look around the room to check that the Pis have all booted to the login screen. If not then turn off the power, and replace the SD card with one you know works.
+It doesn't matter what colour wires students use.
+
+While the students start building the circuit, look around the room to check that the Pis have all booted to the desktop. If not then turn off the power, and replace the SD card with one you know works.
 
 ### Extension activity
 
@@ -46,21 +48,19 @@ Use a button to switch the LED. Show this picture for advanced students to follo
 
 \ ![1 LED and 1 button](1led1buttonbasic.png)
 
-## Login to the Pi : 5 minutes
-
-All students should now have a working circuit and a login screen on their Pi. Tell the students to log in and start Idle (instructions in their handout)
-
 ## Python stopwatch : 20 minutes
 
-In Idle, create a new program by clicking `file->new`.
+Tell students to start Idle (not Idle3), and create a new program by clicking `file->new`.
 
-Then ask the students to copy out the first turtle program from the handout into this new window.
+Ask students to explain how the stopwatch program works. Make some predictions.
+
+Then ask the students to copy out the stopwatch program from the handout into this new window.
 
 When everyone has finished, they need to save their files. Ask them to save their file as `stopwatch.py`
 
 After all students have saved, ask them to press `f5` to run the program. If they've correctly typed the program they should see the stopwatch counting up in seconds.
 
-Check everyone's screen to see this has happened.
+Check everyone's screen to see this has happened. If student's predictions were wrong, discuss what is happening when the code runs.
 
 Ask them to time themselves taking apart the circuit and putting the parts away in the correct bags.
 
@@ -70,14 +70,7 @@ Ask students to change the stopwatch so it counts in tenths of a second instead 
 
 ## Pack away : 5 minutes
 
-Pack away the Pi. This time we are doing it properly:
-
-* Log out,
-* Type `sudo halt`,
-* Wait until the lights go out,
-* Unplug the cables and pack into the box.
-
-These steps are included in the handout.
+Pack away the Pi as before.
 
 # Homework
 

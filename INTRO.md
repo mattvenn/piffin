@@ -36,4 +36,4 @@ We aim to respond to emails directed to [info@piffin.co.uk](mailto:info@piffin.c
 
 ## Twitter
 
-Tweet us [@Piffin_ ](http://twitter.com/Piffin_)
+Tweet us [@Piffin_](http://twitter.com/Piffin_)

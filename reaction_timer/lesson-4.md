@@ -1,4 +1,4 @@
-% Conditionals and buttons
+% Lesson 4 - Conditionals and buttons
 % Piffin
 %
 
@@ -45,17 +45,19 @@ Setup the Pi and get logged in.
 
 ## Detect a button with Python : 10 minutes
 
-Ask the students to copy the code in their handout into a new file called `button.py`. 
-Explain that the `if` and the `else` are doing the same task as the people in the conditional tree game. 
-This is the part that allows the code to do 2 different things depending on whether the button is pressed.
+* Ask the students to look at the code in their handout and predict what will happen.
+* Explain that the `if` and the `else` are doing the same task as the people in the conditional tree game. 
+* This is the part that allows the code to do 2 different things depending on whether the button is pressed.
+* Ask them to start Idle as the super user as before, and copy the code into a new file called `button.py`. 
 
 ## Build the circuit : 10 minutes
 
-Ask the students to build the circuit shown in the handout.
+Ask the students to identify pin 16 on the Pi (8 down on the right hand side). Ask the students to build the circuit shown in the handout. 
 
 ## Run the code : 10 minutes
 
-Run the code as detailed in the previous lesson. Students will discover that the code only checks the button once. 
+Ask the students to test their prediction by running the code.
+Students will discover that the code only checks the button once. 
 They'll have to hold the button before starting the program to ever see the message that the button is pressed.
 
 Ask the students to modify the code, adding a loop so that the program is checking continuously if the button is pressed. If they are stuck as them to look at the loop in the `flash.py` or `stopwatch.py` examples. The [cheat sheet](../cheatsheet.html#loops) also has a looping example.
@@ -64,7 +66,7 @@ Once the students have done added a loop, ask them to look at the little box in 
 
 ### Extension Activity
 
-We can reduce CPU usage by including a small delay in our loop. If it's too big then we might miss a button press. The smaller the delay the harder the Pi has to work. Ask the students to add a delay and experiment with delay times. If they forgot how to do a delay then they can check their `flash.py` code.
+We can reduce CPU usage by including a small delay in our loop. If it's too big then we might miss a button press. The smaller the delay the harder the Pi has to work. Ask the students to add a delay and experiment with delay times. If they forgot how to do a delay then they can check their `flash.py` code. Try different lengths of delay. Is there a problem with increasing the delay too much?
 
 ## Example code
 

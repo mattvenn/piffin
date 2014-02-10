@@ -1,4 +1,4 @@
-% Flashing an LED
+% Lesson 3 - Flashing an LED
 % Piffin
 %
 
@@ -13,8 +13,8 @@ Once we can control an LED, the same technique can be used to control motors, sp
 Students will learn:
 
 * How to use the Pi to control a [GPIO](../glossary.html#gpio),
-* looping,
-* how to pause a Python program using the time library.
+* Looping,
+* How to pause a Python program using the time library.
 
 # Resources
 
@@ -25,7 +25,7 @@ Students will learn:
 
 ## Setup Pi : 5 minutes
 
-Use the stopwatch code to time your students, they should be pretty fast by now! You could time how long it takes until they have started Idle. The author managed 55 seconds to login, and 87 seconds to start Idle.
+Use the stopwatch code to time your students, they should be pretty fast by now! You could time how long it takes until they have started Idle. The author managed to go from unplugged to typing code into Idle in 68 seconds.
 
 ## Looping with Python : 10 minutes
 
@@ -35,9 +35,10 @@ Once we can control an LED we can move on to things like motors and buzzers.
 
 Ask the students to think about what is needed to flash a light on and off:
 
-1. being able to control the pins on the Raspberry Pi with python
-2. pausing a short moment - without a pause the LED will flash so fast it will just look dim!
-3. a loop, so the LED will continue flashing
+1. Being able to control the pins on the Raspberry Pi with python,
+2. Pausing a short moment - without a pause the LED will flash so fast it will just look dim!
+3. A loop, so the LED will continue flashing,
+4. The physical circuit: an LED, resistor and some wires.
 
 Ask the students if they've seen any code that could something similar? The stopwatch program from last time has the loop, and it can pause. What it's missing is the ability to turn on and off the LED.
 
@@ -53,7 +54,7 @@ Go round the class and check that everyone has managed to get the program printi
 
 ## Add the LED control : 10 minutes
 
-We need to use another library to control the LEDs. Get the students to add these lines to the top of their `flash.py` code.
+We need to use another library to control the LEDs. Get the students to add these lines to the top of their `flash.py` code. They can leave in the printing lines, as they are helpful for debugging.
 
 These lines are also in the handout.
 
@@ -65,7 +66,7 @@ GPIO.setmode(GPIO.BOARD)
 GPIO.setwarnings(False)
 ~~~
 
-Now we store the pin number in a variable, so it's easy to change later, and then set that pin to be an output:
+Now we store the pin number in a variable, so it's easy to change later, and then set that pin to be an output: 
 
 ~~~ {.python}
 led_pin = 8
@@ -97,7 +98,7 @@ Ask the students to run the program. It will fail with this error:
 This is because we can only access the GPIOs as the super user (root). Here's how to run Idle as the super user:
 
 * Close Idle,
-* Open a terminal (start menu->accessories->lxterminal),
+* Open lxterminal (double click on lxterminal icon on the desktop),
 * Type `gksudo idle` and press enter,
 * A warning window will pop up which you can ignore,
 * Now open your program as before and use `f5` to run.
@@ -108,7 +109,7 @@ These instructions are also in the handout.
 
 Ask students to build the LED circuit in their handout. When their circuit is correct, their LED should start flashing.
 
-Explain that the LED is connected to pin 8 because we set the `led_pin` variable to pin 8 in the software. If we wanted the LED on another pin, we'd have to make sure the hardware and the software matched up. We can use any pin that isn't marked `GND`, `3.3v` or `5v`.
+Explain that the LED is connected to pin 8 because we set the `led_pin` variable to pin 8 in the software. If we wanted the LED on another pin, we'd have to make sure the hardware and the software matched up. We can use any pin that isn't marked `GND`, `3.3v` or `5v`. Ask the students to identify which is pin 8. They can use the etching on the Pi holder. It is the 4th pin down on the right hand side.
 
 If you're not using our Pi mounting kits, then here's a picture of the GPIOs with `ground` (same as `GND`), `3.3v` or `5v` marked.
 
@@ -118,7 +119,7 @@ Explain that the controlling an LED is just the first and simplest thing we can 
 
 ### Extension activities
 
-* Make the LED flash the morse code of the student's initials.
+* Make the LED flash the [morse code](http://en.wikipedia.org/wiki/Morse_code) of the student's initials.
 * Move the LED onto another pin and change the software to match.
 * Add an extra LED and update the software to flash both LEDs.
 
