@@ -22,6 +22,8 @@ Students will learn:
 * Some A4 sheets of paper, pens,
 * 15 [copies of the handout](lesson-4-handout.html).
 
+# Lesson Plan
+
 ## Conditional Tree : 15 minutes
 
 You'll need some room to play this physical game. Outside works well!

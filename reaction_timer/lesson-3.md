@@ -23,6 +23,8 @@ Students will learn:
 * Some A4 sheets of paper, pens,
 * 15 [copies of the handout](lesson-3-handout.html).
 
+# Lesson Plan
+
 ## Setup Pi : 5 minutes
 
 Use the stopwatch code to time your students, they should be pretty fast by now! You could time how long it takes until they have started Idle. The author managed to go from unplugged to typing code into Idle in 68 seconds.

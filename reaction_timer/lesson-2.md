@@ -22,6 +22,8 @@ Students will learn:
 * A few small cross head screwdrivers (optional),
 * Some spare NOOBS cards in case the ones from last week didn't work.
 
+# Lesson Plan
+
 ## Finish building holder : 5 minutes
 
 Last time the students stuck on the breadboard and the rubber feet to the holder. Now they're going to attach the Pi to the holder. Finish following the instructions to mount the Pi. Gently tighten the screws with the screw driver or do it by hand.

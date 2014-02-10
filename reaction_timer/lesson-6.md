@@ -17,6 +17,8 @@ Students will learn:
 
 * 15 Pis and equipment.
 
+# Lesson Plan
+
 ## Setup the Pi : 5 minutes
 
 Make a note of the best time. This will be useful to share with other teachers, and with future students!
