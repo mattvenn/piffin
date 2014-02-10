@@ -4,8 +4,8 @@
 
 # Elementary electronics & Python Stopwatch
 
-In this lesson we'll learn how to follow a diagram to build a circuit that lights a single LED. 
-We'll also learn how to write and run a Python program. We'll be using the SD card we installed from last time. It's a good idea to have a few spare SD cards that have already been installed in case something went wrong in the last lesson.
+In this lesson the students will learn how to follow a diagram to build a circuit that lights a single LED. 
+They'll also learn how to write and run a Python program. They'll be using the SD card they installed from last time. It's a good idea to have a few spare SD cards that have already been installed in case something went wrong in the last lesson.
 
 # Learning objectives
 
@@ -19,16 +19,16 @@ Students will learn:
 * 15 Pis and equipment,
 * LED, wires.
 * 15 [copies of the handout](lesson-2-handout.html),
-* A few small cross head screwdrivers,
+* A few small cross head screwdrivers (optional),
 * Some spare NOOBS cards in case the ones from last week didn't work.
 
 ## Finish building holder : 5 minutes
 
-Last time we stuck on the breadboard and the rubber feet to the holder. Now we're going to attach the Pi to the holder. Finish following the instructions to mount the Pi. Gently tighten the screws with the screw driver.
+Last time the students stuck on the breadboard and the rubber feet to the holder. Now they're going to attach the Pi to the holder. Finish following the instructions to mount the Pi. Gently tighten the screws with the screw driver or do it by hand.
 
 ## Setup Pi : 5 minutes
 
-Load your stopwatch python program and tell the students we're going to try and beat the best records from last lesson. Read out the times and when everyone is ready start the clock.
+Load your stopwatch python program and tell the students they're going to try and beat the best records from last lesson. Read out the times and when everyone is ready start the clock.
 
 Record the results and ask what takes the time, and how it can be shortened. Try and get the students to start working to share best practice as this will be extremely useful later.
 

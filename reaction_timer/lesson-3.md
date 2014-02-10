@@ -4,9 +4,9 @@
 
 # Flash an LED with Python
 
-Last time we made a simple LED circuit, but we didn't control it with the Pi.
-This time we'll do that by building a similar LED circuit and linking it to a Python program.
-Once we can control an LED, the same technique can be used to control motors, speakers and other actuators.
+Last time they made a simple LED circuit, but didn't control it with the Pi.
+This time the students will control an LED with a Python program.
+Once they can control an LED, the same technique can be used to control motors, speakers and other actuators.
 
 # Learning objectives
 
@@ -31,7 +31,7 @@ Use the stopwatch code to time your students, they should be pretty fast by now!
 
 The Raspberry Pi has many GPIOs (General Purpose Input/Output) that we can use. They can either be set as an input or an output.
 Flashing an LED is a good first example of using the Pi's output to controlling something in the real world.
-Once we can control an LED we can move on to things like motors and buzzers. 
+Once they can control an LED we can move on to things like motors and buzzers. 
 
 Ask the students to think about what is needed to flash a light on and off:
 
@@ -50,7 +50,7 @@ Ask the students to open the `stopwatch.py` program they used last time and save
     * print 'LED off' on one line
     * wait 1 second
 
-Go round the class and check that everyone has managed to get the program printing out the messages.
+Check that everyone has managed to get the program printing out the messages.
 
 ## Add the LED control : 10 minutes
 
@@ -58,7 +58,7 @@ We need to use another library to control the LEDs. Get the students to add thes
 
 These lines are also in the handout.
 
-The first line imports the new library, the second sets the library so we can refer to the pins by their physical number, and the 3rd turns off some distracting warnings: 
+The first line imports the new library, the second sets the library so they can refer to the pins by their physical number, and the 3rd turns off some distracting warnings: 
 
 ~~~ {.python}
 import RPi.GPIO as GPIO
@@ -115,7 +115,7 @@ If you're not using our Pi mounting kits, then here's a picture of the GPIOs wit
 
 \ ![GPIOs](gpios.png)
 
-Explain that the controlling an LED is just the first and simplest thing we can control. We can use the same technique for controlling motors, though we'd also need some kind of amplifier.
+Explain that the controlling an LED is just the first and simplest thing they can control. They can use the same technique for controlling motors, though they'd also need some kind of amplifier.
 
 ### Extension activities
 
@@ -136,7 +136,7 @@ Pack away the Pi. Remind students to follow the instructions in last lesson's ha
 
 All students:
 
-* Will understand we can use a GPIO to control an LED,
+* Will understand they can use a GPIO to control an LED,
 * Will have modified a Python program.
 
 Most students:

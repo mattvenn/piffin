@@ -4,13 +4,13 @@
 
 # Conditionals & Detecting button presses
 
-Now we're moving onto buttons, we need to be able to use [conditions](../glossary.html#conditional) in Python. These let our program do different things depending on what's happening. So if the button is pressed something different should happen to normal.
+Now the class is moving onto buttons, they need to be able to use [conditions](../glossary.html#conditional) in Python. These let a program do different things depending on what's happening.
 
 # Learning objectives
 
 Students will learn:
 
-* What a conditional statement is,
+* Conditional statements,
 * How to write a conditional in Python,
 * Build a button circuit,
 * Detect a button press with Python.
@@ -66,7 +66,7 @@ Once the students have done added a loop, ask them to look at the little box in 
 
 ### Extension Activity
 
-We can reduce CPU usage by including a small delay in our loop. If it's too big then we might miss a button press. The smaller the delay the harder the Pi has to work. Ask the students to add a delay and experiment with delay times. If they forgot how to do a delay then they can check their `flash.py` code. Try different lengths of delay. Is there a problem with increasing the delay too much?
+They can reduce CPU usage by including a small delay in our loop. The smaller the delay the harder the Pi has to work. Ask the students to add a delay and experiment with delay times. If they forgot how to do a delay then they can check their `flash.py` code. Try different lengths of delay. Is there a problem with increasing the delay too much? If it's too big then they might miss a button press.
 
 ## Example code
 
@@ -93,7 +93,7 @@ All students:
 
 Most students:
 
-* Understand that we need to check the button over and over with a loop.
+* Understand that they need to check the button over and over with a loop.
 
 Some students:
 

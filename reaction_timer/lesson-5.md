@@ -4,11 +4,11 @@
 
 # The Reaction Timer
 
-Now we've learnt how to setup the Pi, write some simple programs, flash an LED and detect a button - we're ready to start making some cool stuff! 
+Now they've learnt how to setup the Pi, write some simple programs, flash an LED and detect a button - they're ready to start making some cool stuff! 
 
 The last 2 lessons focus on building a reaction timer and then running a class competition to see who has the fastest reactions.
 
-Students have mostly copied code and made minor modifications. This time we'll work together to plan a program and to turn it into Python using pseudo code.
+Students have mostly copied code and made minor modifications. This time they'll work together to plan a program and to turn it into Python using pseudo code.
 
 # Learning objectives
 
@@ -29,8 +29,8 @@ Students learn:
 
 ## What do we need for a reaction timer? : 25 minutes
 
-Ask what hardware is needed? We react to the LED and push a button.
-Ask what software is needed? The LED has to light after a random time so we can't predict it.
+Ask what hardware is needed? They react to the LED and push a button.
+Ask what software is needed? The LED has to light after a random time so they can't predict it.
 
 Discuss with the class how the software will work. 
 
@@ -78,7 +78,7 @@ It should end up something like this:
 
 ## Extra Python
 
-We've introduced 2 commands with the program cards that we haven't covered yet in Python. These are also included in the handouts.
+We've introduced 2 commands with the program cards that they haven't covered yet in Python. These are also included in the handouts.
 
 ### Generating a random number
 

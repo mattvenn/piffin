@@ -4,13 +4,13 @@
 
 # Reaction Timer part 2
 
-Last time we made a good start on the software. In the final lesson we'll finish the software, build the hardware and see who's got the fastest reactions!
+Last time they made a good start on the software. In the final lesson they'll finish the software, build the hardware and see who's got the fastest reactions!
 
 # Learning objectives
 
 Students will learn:
 
-* We can build useful applications with Python and some electronics,
+* They can build useful applications with Python and some electronics,
 * Who has the fastest reactions!
 
 # Resources
@@ -38,11 +38,11 @@ Circuit diagrams haven't been included in the final handout as students have alr
 
 ### Extension activity
 
-We don't get a great representation of reaction time without making multiple measurements (just like in science). Find a way to repeat the test 3 times and make an average before printing a final score.
+They don't get a great representation of reaction time without making multiple measurements (just like in science). Find a way to repeat the test 3 times and make an average before printing a final score.
 
 ## Who's the fastest? : 10 minutes
 
-Now it's time to run the competition! To save time, we'll play a 'sudden death' tournament. If you lose then you get knocked out. 
+Now it's time to run the competition! To save time, they'll play a 'sudden death' tournament. If a student loses then they get knocked out. 
 
 Ask all pairs to test each other. The winners then play against each other. A class of 30 should only need 5 tests to find the overall winner.
 

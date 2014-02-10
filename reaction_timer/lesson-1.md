@@ -4,7 +4,7 @@
 
 # The Raspberry Pi
 
-In this lesson, we'll learn what the Raspberry Pi is and practice setting it up and breaking it down. 
+In this lesson, the class will learn what the Raspberry Pi is and practice setting it up and breaking it down. 
 These lessons assume you won't be able to leave the Pi out and connected, so it's important to get the set up and break down time as fast as possible.
 If you do have the facility to leave equipment setup, then take a little longer on the activities.
 
@@ -12,8 +12,8 @@ If you do have the facility to leave equipment setup, then take a little longer 
 
 Students will learn:
 
-* What the Pi is,
-* What the various sockets are for,
+* About the Pi,
+* About the various sockets,
 * How to set up and take apart the Pi,
 * How to get an SD card ready to use.
 
@@ -67,12 +67,13 @@ Explain that the SD card that stores the operating system and all our files is c
 * Ask the students to tick the 4th box down next to *Raspian - Boot to Desktop*,
 * Then click the top left icon that says *Install*.
 
-This process takes about 10 minutes, so while we wait complete the following activities. Walk around the class and check that the installation is proceeding as expected. We need this to work so that next week we can login to the Pi.
+Check that the installation is proceeding as expected. You need this to work so that next week they can login to the Pi.
+This process takes about 10 minutes so while they wait, complete the following activities.
 
 * Ask the students to start assembling the holder (sticking on the feet and breadboard) - leave attaching the Pi until later. Ensure the students keep the little plastic screws safe in the bag.
 * Ask the students to write their team number on the front of the Lab kit box,
 * Ask if anyone has heard of or used Linux. Explain that Linux is a free [operating system](../glossary.html#operating-system). Android is a variant of Linux developed by Google.
-* Explain that the Pi runs Linux, and so to use it we'll have to learn how to use it.
+* Explain that the Pi runs Linux, and so they will have to learn how to use it.
 
 After Linux has been installed this screen will appear:
 
@@ -81,8 +82,6 @@ After Linux has been installed this screen will appear:
 Ask the students to press the tab key twice to highlight the `finish` text, and then press enter. The Pi will then reboot and load the desktop.
 
 ## Pack away : 5 minutes
-
-Pack away the Pi:
 
 * Click the red power button on the bottom right of the screen,
 * Choose to `shut down`,
