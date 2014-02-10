@@ -15,7 +15,7 @@ We designed the holder to keep your Raspberry Pi and breadboard next to each oth
 - Put 2x bolts through the plastic holder, the spacers on the bolts, the Raspberry Pi on the spacers and finally add and tighten the nuts to hold everything in place.
 - Your Raspberry Pi prototyping holder is assembled and ready to use
 
- ![holder assembly](documentation/RPIH/RPIH-ASSEMBLY-DIAG-A4.png)
+\ ![holder assembly](documentation/RPIH/RPIH-ASSEMBLY-DIAG-A4.png)
 
 # Having Trouble?
 
