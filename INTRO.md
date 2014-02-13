@@ -1,3 +1,7 @@
+% Lab Kit
+% PIffIN
+%
+
 # Piffin Lab Kit
 
 Thank you for purchasing our Raspberry Pi Lab Kit. We've spent a lot of time making it easier to teach computer science with the Raspberry Pi and electronics in a classroom environment. To get started, go to our documentation and schemes of work online: [doc.piffin.co.uk](http://doc.piffin.co.uk).
@@ -15,7 +19,7 @@ We designed the holder to keep your Raspberry Pi and breadboard next to each oth
 - Put 2x bolts through the plastic holder, the spacers on the bolts, the Raspberry Pi on the spacers and finally add and tighten the nuts to hold everything in place.
 - Your Raspberry Pi prototyping holder is assembled and ready to use
 
-\ ![holder assembly](documentation/RPIH/RPIH-ASSEMBLY-DIAG-A4.png)
+\ ![holder assembly](documentation/RPIH-ASSEMBLY-DIAG.png)
 
 # Having Trouble?
 
