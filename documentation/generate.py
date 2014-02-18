@@ -1,4 +1,7 @@
 #!/usr/bin/python
+"""
+todo: only process files that have changed
+"""
 import subprocess
 import os
 import sys
@@ -76,7 +79,7 @@ def process(md_file):
         #fonts work with xelatex
         if args.verbose:
             print("making " + pdf_file)
-        os.system('~/.cabal/bin/pandoc  --template=%s --variable mainfont="DejaVu Sans" --variable sansfont="DejaVu Sans" --variable fontsize=12pt --latex-engine=xelatex %s -o %s --variable date="%s" %s'% ( tex_template,tmp_file,pdf_file,date,toc))
+        os.system('~/.cabal/bin/pandoc  --template=%s --variable mainfont="DejaVu Sans" --variable sansfont="DejaVu Sans" --variable fontsize=12pt --latex-engine=xelatex %s -o %s  --variable geometry:margin=2cm --variable date="%s" %s'% ( tex_template,tmp_file,pdf_file,date,toc))
         
     #remove the tmp file
     os.remove(tmp_file)
