@@ -7,6 +7,7 @@
 
 #develop
 
+* button pin 10 or 16? decide and normalise
 * missed plenaries, worth putting in?
 * conditional/condition/conditional statement etc. Fix in glossary and cheatsheet. Comparison operators.
 * competition too early, will break PIs?

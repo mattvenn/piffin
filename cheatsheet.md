@@ -94,7 +94,7 @@ To loop forever:
 
 ~~~ {.python}
 while True:
-    print "hello!!"
+    print("hello!!")
 ~~~
 
 To loop a certain number of times we can use `while`. `while` will only loop the code after the `:` while its condition is True:
@@ -174,7 +174,7 @@ GPIO.output(led_pin, False)
 
 ~~~ {.python}
 #store the pin number in a variable
-button_pin = 10
+button_pin = 16
 
 #set the GPIO to be an input that's high normally, low when pressed
 GPIO.setup(button_pin,GPIO.IN, pull_up_down=GPIO.PUD_UP)
@@ -182,5 +182,5 @@ GPIO.setup(button_pin,GPIO.IN, pull_up_down=GPIO.PUD_UP)
 while True:
     #check if it's pressed
     if GPIO.input(button_pin) == False:
-        print "button pressed"
+        print("button pressed")
 ~~~
