@@ -15,6 +15,7 @@ footer = os.path.join(doc_dir,'footer.html')
 tex_template = os.path.join(doc_dir,'template.tex')
 html_template = os.path.join(doc_dir,'template.html')
 css = 'http://doc.piffin.co.uk/documentation/pandoc.css'
+pandoc_bin = '/usr/bin/pandoc'
 #css = os.path.join(doc_dir,'pandoc.css')
 
 def process(md_file):
@@ -63,7 +64,7 @@ def process(md_file):
     if args.verbose:
         print("making " + html_file)
     #these options make pandoc assume --standalone which is why the css for the syntax highlighting happens
-    os.system('~/.cabal/bin/pandoc --template=%s -c %s -H %s -A %s %s -o %s --variable date="%s" --variable pdf="%s"' % ( html_template, css, header, footer, tmp_file, html_file,date,pdf_file))
+    os.system(pandoc_bin + ' --template=%s -c %s -H %s -A %s %s -o %s --variable date="%s" --variable pdf="%s"' % ( html_template, css, header, footer, tmp_file, html_file,date,pdf_file))
 
     #make pdfs
     if not args.nopdf:
@@ -79,7 +80,7 @@ def process(md_file):
         #fonts work with xelatex
         if args.verbose:
             print("making " + pdf_file)
-        os.system('~/.cabal/bin/pandoc  --template=%s --variable mainfont="DejaVu Sans" --variable sansfont="DejaVu Sans" --variable fontsize=14pt --latex-engine=xelatex %s -o %s  --variable geometry:margin=2cm  --variable date="%s" %s'% ( tex_template,tmp_file,pdf_file,date,toc))
+        os.system(pandoc_bin + ' --template=%s --variable mainfont="DejaVu Sans" --variable sansfont="DejaVu Sans" --variable fontsize=14pt --latex-engine=xelatex %s -o %s  --variable geometry:margin=2cm  --variable date="%s" %s'% ( tex_template,tmp_file,pdf_file,date,toc))
         
     #remove the tmp file
     os.remove(tmp_file)
